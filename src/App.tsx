@@ -3,6 +3,8 @@ import { Box, CssBaseline, Paper, Typography, ThemeProvider } from "@mui/materia
 import { createTheme } from "@mui/material/styles";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { routes as appRoutes } from "./routes";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -30,6 +32,7 @@ function App() {
       <CssBaseline />
       <Box height="100vh" display="flex" flexDirection="column">
         <Router>
+          <Navbar />
           <Routes>
             {appRoutes.map((route) => (
               <Route
@@ -39,6 +42,7 @@ function App() {
               />
             ))}
           </Routes>
+          <Footer />
         </Router>
       </Box>
     </ThemeProvider>
