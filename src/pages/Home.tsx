@@ -1,5 +1,6 @@
 import React, { ReactElement, FC } from "react";
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
+import TopImage from "../components/TopImage";
 
 const Home: FC<any> = (): ReactElement => {
   return (
@@ -12,16 +13,7 @@ const Home: FC<any> = (): ReactElement => {
         alignItems: "center",
       }}
     >
-      <div className="first-image-with-text">
-        <img
-          style={{ width: "100%" }}
-          src={process.env.PUBLIC_URL + "london-2374247with pink.jpg"}
-          alt="cannot display"
-        />
-        <Typography>
-          <h1>Creativity Is Capital</h1>
-        </Typography>
-      </div>
+      <TopImage />
     </Box>
   );
 };

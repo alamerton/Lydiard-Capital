@@ -28,6 +28,10 @@ function App() {
         dark: "#726000",
         contrastText: "#000000",
       },
+      text: {
+        primary: "#000000",
+        secondary: "#FFFFFF",
+      },
     },
   });
 
