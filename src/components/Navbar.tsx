@@ -1,55 +1,24 @@
-import React, { FC, ReactElement } from "react";
-import {
-  Box,
-  Link,
-  Container,
-  IconButton,
-  Menu,
-  MenuItem,
-  Toolbar,
-  Typography,
-  Icon,
-} from "@mui/material";
+import * as React from "react";
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
+import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
-import { routes } from "../routes";
-import { NavLink } from "react-router-dom";
+import Logo from "./Logo";
 
-const Navbar: FC = (): ReactElement => {
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-
-  const handleOpenNavMenu = (event: any) => {
-    setAnchorElNav(event.currentTarget);
-  };
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
-
+export default function ButtonAppBar() {
   return (
-    <Box
-      sx={{
-        width: "100%",
-        height: "auto",
-        backgroundColor: "primary.main",
-      }}
-    >
-      <Container maxWidth="xl">
-        <Toolbar disableGutters>
-          src = {process.env.PUBLIC_URL + "/Lydiard Capital Wreath.png"}
-          <Typography
-            fontFamily="Source"
-            color="primary.contrastText"
-            variant="h6"
-            noWrap
-            component="div"
-            sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
-          >
+    <Box sx={{ flexGrow: 1 }}>
+      <AppBar position="static">
+        <Toolbar>
+          <Logo />
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Lydiard Capital
           </Typography>
         </Toolbar>
-      </Container>
+      </AppBar>
     </Box>
   );
-};
-
-export default Navbar;
+}
