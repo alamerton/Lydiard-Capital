@@ -9,13 +9,16 @@ const Home: FC<any> = (): ReactElement => {
         backgroundColor: "whitesmoke",
         display: "flex",
         justifyContent: "center",
-        alignItems: "center",
+        // alignItems: "center",
       }}
     >
-      <img
-        src={process.env.PUBLIC_URL + "london-2374247with pink.jpg"}
-        alt="cannot display"
-      />
+      <div className="div">
+        <img
+          style={{ width: "100%" }}
+          src={process.env.PUBLIC_URL + "london-2374247with pink.jpg"}
+          alt="cannot display"
+        />
+      </div>
     </Box>
   );
 };
