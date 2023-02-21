@@ -1,6 +1,5 @@
 // pages
 import Home from "./pages/Home";
-import About from "./pages/About";
 
 // other
 import { FC } from "react";
@@ -21,12 +20,5 @@ export const routes: Array<Route> = [
     path: "/",
     enabled: true,
     component: Home,
-  },
-  {
-    key: "about-route",
-    title: "About",
-    path: "/About",
-    enabled: true,
-    component: About,
   },
 ];

@@ -42,7 +42,7 @@ const Navbar: FC = (): ReactElement => {
               display: { xs: "none", md: "flex" },
             }}
           >
-            Lydiard Capital
+            Give Engine
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -97,31 +97,6 @@ const Navbar: FC = (): ReactElement => {
           >
             React Starter App
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            <Box
-              sx={{
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "flex-start",
-                alignItems: "center",
-                marginLeft: "1rem",
-              }}
-            >
-              {routes.map((page) => (
-                <Link
-                  key={page.key}
-                  component={NavLink}
-                  to={page.path}
-                  color="black"
-                  underline="none"
-                  variant="button"
-                  sx={{ fontSize: "large", marginLeft: "2rem" }}
-                >
-                  {page.title}
-                </Link>
-              ))}
-            </Box>
-          </Box>
         </Toolbar>
       </Container>
     </Box>
