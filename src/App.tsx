@@ -20,13 +20,11 @@ function App() {
         main: "#000000",
         light: "#6a7b83",
         dark: "#303e46",
-        contrastText: "#FFFFFF",
       },
       secondary: {
         main: "#A38A00",
         light: "#b5a133",
         dark: "#726000",
-        contrastText: "#000000",
       },
       text: {
         primary: "#000000",

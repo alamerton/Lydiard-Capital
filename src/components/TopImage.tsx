@@ -19,6 +19,7 @@ class TopImage extends Component {
             bottom: "0.2rem",
             left: "0.2rem",
             fontFamily: "Source",
+            color: "text.secondary",
           }}
         >
           <h1>Creativity Is Capital</h1>
