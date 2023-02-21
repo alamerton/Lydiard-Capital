@@ -34,7 +34,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Box height="100vh" display="flex" flexDirection="column">
+      <Box display="flex" flexDirection="column">
         <Router>
           <Navbar />
           <Routes>
@@ -46,7 +46,7 @@ function App() {
               />
             ))}
           </Routes>
-          <Footer />
+          {/* <Footer /> */}
         </Router>
       </Box>
     </ThemeProvider>
