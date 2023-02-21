@@ -7,6 +7,7 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Logo from "./Logo";
+import { fontFamily } from "@mui/system";
 
 export default function ButtonAppBar() {
   return (
@@ -14,7 +15,11 @@ export default function ButtonAppBar() {
       <AppBar position="static">
         <Toolbar>
           <Logo />
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography
+            variant="h6"
+            component="div"
+            sx={{ flexGrow: 1, fontFamily: "Source" }}
+          >
             Lydiard Capital
           </Typography>
         </Toolbar>

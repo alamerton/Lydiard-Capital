@@ -7,7 +7,13 @@ class Logo extends Component {
         <img
           src={process.env.PUBLIC_URL + "lydiard-capital-wreath.svg"}
           alt="cannot display"
-          style={{ width: "2rem", height: "2rem" }}
+          style={{
+            width: "3rem",
+            height: "3rem",
+            display: "block",
+            margin: "auto",
+            padding: "0.5rem",
+          }}
         />
       </div>
     );

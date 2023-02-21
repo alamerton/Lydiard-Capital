@@ -9,15 +9,18 @@ const Home: FC<any> = (): ReactElement => {
         backgroundColor: "whitesmoke",
         display: "flex",
         justifyContent: "center",
-        // alignItems: "center",
+        alignItems: "center",
       }}
     >
-      <div className="div">
+      <div className="first-image-with-text">
         <img
           style={{ width: "100%" }}
           src={process.env.PUBLIC_URL + "london-2374247with pink.jpg"}
           alt="cannot display"
         />
+        <Typography>
+          <h1>Creativity Is Capital</h1>
+        </Typography>
       </div>
     </Box>
   );
