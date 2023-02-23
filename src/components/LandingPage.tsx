@@ -30,6 +30,8 @@ class TopImage extends Component {
             </Typography>
         </div>
         <div className="gross-development-value-mission-card">
+            <img style={{ width: "100%" }}>
+            </img>
         </div>
       </div>
     );
