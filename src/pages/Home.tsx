@@ -1,6 +1,6 @@
 import React, { ReactElement, FC } from "react";
 import { Box } from "@mui/material";
-import TopImage from "../components/TopImage";
+import LandingPage from "../components/LandingPage";
 
 const Home: FC<any> = (): ReactElement => {
   return (
@@ -13,7 +13,7 @@ const Home: FC<any> = (): ReactElement => {
         alignItems: "center",
       }}
     >
-      <TopImage />
+      <LandingPage />
     </Box>
   );
 };

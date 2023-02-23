@@ -18,7 +18,7 @@ class TopImage extends Component {
           sx={{
             position: "absolute",
             bottom: "0.1rem",
-            right: "0.1rem",
+            right: "1rem",
             fontFamily: "Source Serif 4",
             fontWeight: "light",
             textAlign: "right",
