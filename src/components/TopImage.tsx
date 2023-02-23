@@ -11,19 +11,21 @@ class TopImage extends Component {
           alt="cannot display"
         />
         <Typography
-          variant="h6"
+          gutterBottom
           component="div"
+          variant="h4"
           flexGrow={1}
           sx={{
             position: "absolute",
             bottom: "0.1rem",
             right: "0.1rem",
-            fontFamily: "Source",
+            fontFamily: "Source Serif 4",
+            fontWeight: "light",
             textAlign: "right",
             color: "text.secondary",
           }}
         >
-          <h1>Creativity Is Capital</h1>
+          Creativity Is Capital
         </Typography>
       </div>
     );

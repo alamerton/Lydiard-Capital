@@ -31,6 +31,9 @@ function App() {
         secondary: "#FFFFFF",
       },
     },
+    typography: {
+      fontFamily: ["Source Serif 4", "Roboto"].join(","),
+    },
   });
 
   return (
