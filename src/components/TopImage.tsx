@@ -16,9 +16,10 @@ class TopImage extends Component {
           flexGrow={1}
           sx={{
             position: "absolute",
-            bottom: "0.2rem",
-            left: "0.2rem",
+            bottom: "0.1rem",
+            right: "0.1rem",
             fontFamily: "Source",
+            textAlign: "right",
             color: "text.secondary",
           }}
         >
