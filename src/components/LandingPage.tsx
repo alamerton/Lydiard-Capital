@@ -7,7 +7,7 @@ class TopImage extends Component {
       <Box>
         <Box style={{ position: "relative" }}>
           <img
-            style={{ width: "100%" }}
+            style={{ width: "100%", height: "100%" }}
             src={process.env.PUBLIC_URL + "london-2374247with pink.jpg"}
             alt="cannot display"
           />
@@ -30,22 +30,24 @@ class TopImage extends Component {
           </Typography>
         </Box>
         <Box style={{ position: "relative" }}>
+          <Box sx={{ backgroundColor: "secondary.main", height: "0.5rem" }} />
           <img
-            style={{ width: "100%" }}
+            style={{ width: "100%", height: "100%" }}
             src={process.env.PUBLIC_URL + "greenfield-brownfield.jpg"}
             alt="cannot display"
           />
           <Typography
             component="div"
-            variant="h4"
+            variant="h6"
             flexGrow={1}
             sx={{
               position: "absolute",
-              bottom: "0.2rem",
-              right: "1rem",
+              bottom: "11.5rem",
+              left: "1rem",
               fontFamily: "Source Serif 4",
-              fontWeight: "light",
-              textAlign: "right",
+              fontWeight: "bold",
+              fontStyle: "italic",
+              textAlign: "left",
               color: "text.secondary",
             }}
           >

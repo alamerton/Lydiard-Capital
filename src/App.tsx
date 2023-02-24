@@ -22,9 +22,10 @@ function App() {
         dark: "#303e46",
       },
       secondary: {
+        main: "#85005B",
+      },
+      info: {
         main: "#A38A00",
-        light: "#b5a133",
-        dark: "#726000",
       },
       text: {
         primary: "#000000",
