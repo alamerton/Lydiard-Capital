@@ -34,6 +34,7 @@ function App() {
     typography: {
       fontFamily: ["Source Serif 4", "Roboto"].join(","),
     },
+    spacing: 0,
   });
 
   return (

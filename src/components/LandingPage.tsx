@@ -5,23 +5,20 @@ class TopImage extends Component {
   render() {
     return (
       <Box>
-        <Box
-          className="first-image-with-text"
-          style={{ position: "relative"}}
-        >
+        <Box style={{ position: "relative" }}>
           <img
             style={{ width: "100%" }}
             src={process.env.PUBLIC_URL + "london-2374247with pink.jpg"}
             alt="cannot display"
           />
           <Typography
-            gutterBottom
+            // gutterBottom
             component="div"
             variant="h4"
             flexGrow={1}
             sx={{
               position: "absolute",
-              bottom: "0.2rem",
+              bottom: "1rem",
               right: "1rem",
               fontFamily: "Source Serif 4",
               fontWeight: "light",
@@ -32,22 +29,13 @@ class TopImage extends Component {
             Creativity Is Capital
           </Typography>
         </Box>
-        <Box
-          className="gross-development-value-mission-card"
-          style={{ position: "relative" }}
-        >
-          <img
-            style={{ width: "100%" }}
-            src={process.env.PUBLIC_URL + "purple-divider.jpg"}
-            alt="cannot display"
-          />
+        <Box style={{ position: "relative" }}>
           <img
             style={{ width: "100%" }}
             src={process.env.PUBLIC_URL + "greenfield-brownfield.jpg"}
             alt="cannot display"
           />
           <Typography
-            gutterBottom
             component="div"
             variant="h4"
             flexGrow={1}
