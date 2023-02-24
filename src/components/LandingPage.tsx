@@ -1,39 +1,71 @@
-import { Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { Component } from "react";
 
 class TopImage extends Component {
   render() {
     return (
-    <div className="landing-page">
-        <div className="first-image-with-text" style={{ position: "relative" }}>
-            <img
+      <Box>
+        <Box
+          className="first-image-with-text"
+          style={{ position: "relative"}}
+        >
+          <img
             style={{ width: "100%" }}
             src={process.env.PUBLIC_URL + "london-2374247with pink.jpg"}
             alt="cannot display"
-            />
-            <Typography
+          />
+          <Typography
             gutterBottom
             component="div"
             variant="h4"
             flexGrow={1}
             sx={{
-                position: "absolute",
-                bottom: "0.1rem",
-                right: "1rem",
-                fontFamily: "Source Serif 4",
-                fontWeight: "light",
-                textAlign: "right",
-                color: "text.secondary",
+              position: "absolute",
+              bottom: "0.2rem",
+              right: "1rem",
+              fontFamily: "Source Serif 4",
+              fontWeight: "light",
+              textAlign: "right",
+              color: "text.secondary",
             }}
-            >
+          >
             Creativity Is Capital
-            </Typography>
-        </div>
-        <div className="gross-development-value-mission-card">
-            <img style={{ width: "100%" }}>
-            </img>
-        </div>
-      </div>
+          </Typography>
+        </Box>
+        <Box
+          className="gross-development-value-mission-card"
+          style={{ position: "relative" }}
+        >
+          <img
+            style={{ width: "100%" }}
+            src={process.env.PUBLIC_URL + "purple-divider.jpg"}
+            alt="cannot display"
+          />
+          <img
+            style={{ width: "100%" }}
+            src={process.env.PUBLIC_URL + "greenfield-brownfield.jpg"}
+            alt="cannot display"
+          />
+          <Typography
+            gutterBottom
+            component="div"
+            variant="h4"
+            flexGrow={1}
+            sx={{
+              position: "absolute",
+              bottom: "0.2rem",
+              right: "1rem",
+              fontFamily: "Source Serif 4",
+              fontWeight: "light",
+              textAlign: "right",
+              color: "text.secondary",
+            }}
+          >
+            Maximising Gross Development Value across both Brownfield and
+            Greenfield land
+          </Typography>
+        </Box>
+      </Box>
     );
   }
 }
