@@ -12,7 +12,6 @@ class TopImage extends Component {
             alt="cannot display"
           />
           <Typography
-            // gutterBottom
             component="div"
             variant="h4"
             flexGrow={1}
