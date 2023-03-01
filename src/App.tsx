@@ -22,7 +22,8 @@ function App() {
         dark: "#303e46",
       },
       secondary: {
-        main: "#85005B",
+        main: "#880E4F",
+
       },
       info: {
         main: "#A38A00",

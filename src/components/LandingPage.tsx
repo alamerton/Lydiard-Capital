@@ -1,4 +1,14 @@
-import { Box, Button, Container, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Container,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+  Typography,
+} from "@mui/material";
+import CircleSharpIcon from "@mui/icons-material/CircleSharp";
 import { Component } from "react";
 
 class TopImage extends Component {
@@ -155,7 +165,7 @@ class TopImage extends Component {
             sx={{
               position: "absolute",
               fontFamily: "Roboto",
-              textAlign: "center",
+              textAlign: "left",
               color: "text.primary",
             }}
           >
@@ -183,7 +193,7 @@ class TopImage extends Component {
             sx={{
               position: "absolute",
               fontFamily: "Roboto",
-              textAlign: "center",
+              textAlign: "left",
               color: "text.primary",
             }}
           >
@@ -219,7 +229,7 @@ class TopImage extends Component {
             sx={{
               position: "absolute",
               bottom: "1rem",
-              left: "1rem",
+              left: "2.75rem",
               fontFamily: "Source Serif 4",
               fontWeight: "bold",
               fontStyle: "italic",
@@ -229,6 +239,73 @@ class TopImage extends Component {
           >
             The Investment Arm
           </Typography>
+        </Box>
+        <Box
+          style={{
+            position: "relative",
+            maxWidth: "80%",
+            margin: "auto",
+            marginTop: "1rem",
+            justifyContent: "center",
+            alignItems: "center",
+            minHeight: "6rem",
+          }}
+        >
+          <Typography
+            component="div"
+            variant="body1"
+            flexGrow={1}
+            width="100%"
+            height="2rem"
+            sx={{
+              position: "absolute",
+              fontFamily: "Roboto",
+              textAlign: "left",
+              color: "text.primary",
+            }}
+          >
+            This section of the business acquires and holds sites to generate a
+            sufficient annual yield in the form of rental income. This will
+            include the following methods of capital generation:
+          </Typography>
+        </Box>
+        <Box
+          style={{
+            position: "relative",
+            maxWidth: "80%",
+            margin: "auto",
+            marginTop: "1rem",
+            justifyContent: "center",
+            alignItems: "center",
+            minHeight: "6rem",
+          }}
+        >
+          <List>
+            <ListItem style={{ paddingTop: 0, paddingBottom: 0 }}>
+              <ListItemIcon>
+                <CircleSharpIcon style={{ height: "0.5rem" }} />
+              </ListItemIcon>
+              <ListItemText primary="Build to Rent"/>
+            </ListItem>
+            <ListItem style={{ paddingTop: 0, paddingBottom: 0 }}>
+              <ListItemIcon>
+                <CircleSharpIcon style={{ height: "0.5rem" }} />
+              </ListItemIcon>
+              <ListItemText primary="Logistical/Industrial Units if they meet our requirements as part of our larger residential led mixed-use schemes." />
+            </ListItem>
+            <ListItem style={{ paddingTop: 0, paddingBottom: 0 }}>
+              <ListItemIcon>
+                <CircleSharpIcon style={{ height: "0.5rem" }} />
+              </ListItemIcon>
+              <ListItemText primary="Retail Units" />
+            </ListItem>
+            <ListItem style={{ paddingTop: 0, paddingBottom: 0 }}>
+              <ListItemIcon>
+                <CircleSharpIcon style={{ height: "0.5rem" }} />
+              </ListItemIcon>
+              <ListItemText primary="Hotels" />
+            </ListItem>
+          </List>
         </Box>
       </Box>
     );
