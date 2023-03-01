@@ -166,6 +166,35 @@ class TopImage extends Component {
         <Box
           style={{
             position: "relative",
+            maxWidth: "80%",
+            margin: "auto",
+            marginTop: "1rem",
+            justifyContent: "center",
+            alignItems: "center",
+            minHeight: "6rem",
+          }}
+        >
+          <Typography
+            component="div"
+            variant="body1"
+            flexGrow={1}
+            width="100%"
+            height="2rem"
+            sx={{
+              position: "absolute",
+              fontFamily: "Roboto",
+              textAlign: "center",
+              color: "text.primary",
+            }}
+          >
+            We take long-term interest in our sites to generate sufficient
+            returns for our investors and stakeholders from a financial,
+            architectural and placemaking standpoint.
+          </Typography>
+        </Box>
+        <Box
+          style={{
+            position: "relative",
             maxWidth: "30%",
             margin: "auto",
             marginTop: "2rem",
