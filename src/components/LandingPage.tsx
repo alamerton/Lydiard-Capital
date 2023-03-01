@@ -1,4 +1,4 @@
-import { Box, Container, Typography } from "@mui/material";
+import { Box, Button, Container, Typography } from "@mui/material";
 import { Component } from "react";
 
 class TopImage extends Component {
@@ -45,7 +45,7 @@ class TopImage extends Component {
             flexGrow={1}
             sx={{
               position: "absolute",
-              bottom: "11.5rem",
+              bottom: "11rem",
               left: "1rem",
               fontFamily: "Source Serif 4",
               fontWeight: "bold",
@@ -71,7 +71,7 @@ class TopImage extends Component {
             flexGrow={1}
             sx={{
               position: "absolute",
-              bottom: "11.5rem",
+              bottom: "11rem",
               left: "1rem",
               fontFamily: "Source Serif 4",
               fontWeight: "bold",
@@ -96,7 +96,7 @@ class TopImage extends Component {
             flexGrow={1}
             sx={{
               position: "absolute",
-              bottom: "11rem",
+              bottom: "10.5rem",
               right: "1rem",
               left: "3rem",
               fontFamily: "Source Serif 4",
@@ -143,7 +143,7 @@ class TopImage extends Component {
             margin: "auto",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "5rem",
+            minHeight: "6rem",
           }}
         >
           <Typography
@@ -163,7 +163,21 @@ class TopImage extends Component {
             complex UK planning system to secure valuable planning permissions.
           </Typography>
         </Box>
+        <Box
+          style={{
+            position: "relative",
+            maxWidth: "30%",
+            margin: "auto",
+            marginTop: "2rem",
+            marginBottom: "3rem",
+            minHeight: "2rem",
+          }}
+        >
+          <Button variant="contained">Contact us</Button>
+          {/* TODO: Make contact button direct user to contact area */}
+        </Box>
       </Box>
+      
     );
   }
 }
