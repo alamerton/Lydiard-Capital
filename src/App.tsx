@@ -23,7 +23,6 @@ function App() {
       },
       secondary: {
         main: "#880E4F",
-
       },
       info: {
         main: "#A38A00",
@@ -54,7 +53,7 @@ function App() {
               />
             ))}
           </Routes>
-          {/* <Footer /> */}
+          <Footer />
         </Router>
       </Box>
     </ThemeProvider>

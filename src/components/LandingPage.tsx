@@ -14,7 +14,7 @@ import { Component } from "react";
 class TopImage extends Component {
   render() {
     return (
-      <Box style={{ backgroundColor: "whitesmoke" }}>
+      <Box style={{ marginBottom: "18rem" }}>
         <Box style={{ position: "relative", marginBottom: "-1rem" }}>
           <img
             style={{
