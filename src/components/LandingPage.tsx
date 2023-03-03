@@ -14,8 +14,8 @@ import { Component } from "react";
 class TopImage extends Component {
   render() {
     return (
-      <Box style={{ marginBottom: "18rem" }}>
-        <Box style={{ position: "relative", marginBottom: "-1rem" }}>
+      <Container style={{ marginBottom: "18rem" }}>
+        <Container style={{ position: "relative", marginBottom: "-1rem" }}>
           <img
             style={{
               width: "100%",
@@ -41,9 +41,9 @@ class TopImage extends Component {
           >
             Creativity Is Capital
           </Typography>
-        </Box>
-        <Box style={{ position: "relative", marginBottom: "-1rem" }}>
-          <Box sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
+        </Container>
+        <Container style={{ position: "relative", marginBottom: "-1rem" }}>
+          <Container sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
           <img
             style={{ width: "100%", height: "100%", filter: "brightness(85%)" }}
             src={process.env.PUBLIC_URL + "Group 19.png"}
@@ -67,9 +67,9 @@ class TopImage extends Component {
             Maximising Gross Development Value across both Brownfield and
             Greenfield land
           </Typography>
-        </Box>
-        <Box style={{ position: "relative", marginBottom: "-1rem" }}>
-          <Box sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
+        </Container>
+        <Container style={{ position: "relative", marginBottom: "-1rem" }}>
+          <Container sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
           <img
             style={{ width: "100%", height: "100%", filter: "brightness(75%)" }}
             src={process.env.PUBLIC_URL + "shard1.jpg"}
@@ -92,9 +92,9 @@ class TopImage extends Component {
           >
             Keeping Construction Costs to a Minimum
           </Typography>
-        </Box>
-        <Box style={{ position: "relative" }}>
-          <Box sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
+        </Container>
+        <Container style={{ position: "relative" }}>
+          <Container sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
           <img
             style={{ width: "100%", height: "100%" }}
             src={process.env.PUBLIC_URL + "buildings-1835643.jpg"}
@@ -118,8 +118,8 @@ class TopImage extends Component {
           >
             Designing Exceptional Residential-Led Mixed-Use developments
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -145,8 +145,8 @@ class TopImage extends Component {
           >
             Be Part of a Ground-Breaking Vision
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -172,8 +172,8 @@ class TopImage extends Component {
             We work in partnership with landowners & Investors and navigate the
             complex UK planning system to secure valuable planning permissions.
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -201,8 +201,8 @@ class TopImage extends Component {
             returns for our investors and stakeholders from a financial,
             architectural and placemaking standpoint.
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "30%",
@@ -214,9 +214,9 @@ class TopImage extends Component {
         >
           <Button variant="contained">Contact us</Button>
           {/* TODO: Make contact button direct user to contact area */}
-        </Box>
-        <Box style={{ position: "relative" }}>
-          <Box sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
+        </Container>
+        <Container style={{ position: "relative" }}>
+          <Container sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
           <img
             style={{ width: "100%", height: "100%" }}
             src={process.env.PUBLIC_URL + "Group 20.png"}
@@ -241,8 +241,8 @@ class TopImage extends Component {
             <br />
             Development/Promotion Arm
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -270,8 +270,8 @@ class TopImage extends Component {
             consent and sell the majority of the subdivided phases to the
             following customers:
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -317,9 +317,9 @@ class TopImage extends Component {
               </Typography>
             </ListItem>
           </List>
-        </Box>
-        <Box style={{ position: "relative" }}>
-          <Box sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
+        </Container>
+        <Container style={{ position: "relative" }}>
+          <Container sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
           <img
             style={{ width: "100%", height: "100%" }}
             src={process.env.PUBLIC_URL + "Group 18.png"}
@@ -342,8 +342,8 @@ class TopImage extends Component {
           >
             The Investment Arm
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -371,8 +371,8 @@ class TopImage extends Component {
             sufficient annual yield in the form of rental income. This will
             include the following methods of capital generation:
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -417,9 +417,9 @@ class TopImage extends Component {
               <Typography sx={{ fontFamily: "Roboto" }}>Hotels</Typography>
             </ListItem>
           </List>
-        </Box>
-        <Box style={{ position: "relative" }}>
-          <Box sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
+        </Container>
+        <Container style={{ position: "relative" }}>
+          <Container sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
           <img
             style={{ width: "100%", height: "100%" }}
             src={process.env.PUBLIC_URL + "Group 21.png"}
@@ -442,8 +442,8 @@ class TopImage extends Component {
           >
             Sites We Are Looking For
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -471,8 +471,8 @@ class TopImage extends Component {
             unconditional or conditional basis, collaborating with our loyal
             investors using our cash reserves.
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -501,8 +501,8 @@ class TopImage extends Component {
             are open to other opportunities if they meet our gross margin
             requirements of between 20-30%.
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "30%",
@@ -514,8 +514,8 @@ class TopImage extends Component {
         >
           <Button variant="contained">Contact us</Button>
           {/* TODO: Make contact button direct user to contact area */}
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -541,8 +541,8 @@ class TopImage extends Component {
             If you are looking to enhance a site, and think it matches our
             requirements, then please get in touch.
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -570,9 +570,9 @@ class TopImage extends Component {
             site ourselves, we will find someone matching your requirements who
             can.
           </Typography>
-        </Box>
-        <Box style={{ position: "relative" }}>
-          <Box sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
+        </Container>
+        <Container style={{ position: "relative" }}>
+          <Container sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
           <img
             style={{ width: "100%", height: "100%" }}
             src={process.env.PUBLIC_URL + "Group 22.png"}
@@ -595,8 +595,8 @@ class TopImage extends Component {
           >
             True Quality Lasts
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -622,8 +622,8 @@ class TopImage extends Component {
           >
             The Lydiard Capital Commitment
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -651,8 +651,8 @@ class TopImage extends Component {
             we live, work, shop, and coalesce. Where ideas are formed, and
             experiences shared.
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -680,8 +680,8 @@ class TopImage extends Component {
             immediate development are conceived with long term master-planning
             and commitment in mind.
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -710,8 +710,8 @@ class TopImage extends Component {
             architects and innovation, leaving a legacy beyond just profit
             margin.
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -737,8 +737,8 @@ class TopImage extends Component {
           >
             Influence an Experience
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -766,8 +766,8 @@ class TopImage extends Component {
             partner with leading specialists in each discipline across the
             project lifecycle.
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -799,8 +799,8 @@ class TopImage extends Component {
             working with sustainable features. Providing a proven product that
             stands out from its competitors.
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -829,8 +829,8 @@ class TopImage extends Component {
             drive to provide exemplar developments that leave a legacy to move
             beyond just placemaking to truly influence an experience.
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -855,8 +855,8 @@ class TopImage extends Component {
           >
             Contact Us
           </Typography>
-        </Box>
-        <Box
+        </Container>
+        <Container
           style={{
             position: "relative",
             maxWidth: "80%",
@@ -894,8 +894,8 @@ class TopImage extends Component {
             <br />
             United Kingdom
           </Typography>
-        </Box>
-      </Box>
+        </Container>
+      </Container>
     );
   }
 }
