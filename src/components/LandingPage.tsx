@@ -515,6 +515,62 @@ class TopImage extends Component {
           <Button variant="contained">Contact us</Button>
           {/* TODO: Make contact button direct user to contact area */}
         </Box>
+        <Box
+          style={{
+            position: "relative",
+            maxWidth: "80%",
+            margin: "auto",
+            justifyContent: "center",
+            alignItems: "center",
+            minHeight: "6rem",
+          }}
+        >
+          <Typography
+            component="div"
+            variant="body1"
+            flexGrow={1}
+            width="100%"
+            height="2rem"
+            sx={{
+              position: "absolute",
+              fontFamily: "Roboto",
+              textAlign: "left",
+              color: "text.primary",
+            }}
+          >
+            If you are looking to enhance a site, and think it matches our
+            requirements, then please get in touch.
+          </Typography>
+        </Box>
+        <Box
+          style={{
+            position: "relative",
+            maxWidth: "80%",
+            margin: "auto",
+            justifyContent: "center",
+            alignItems: "center",
+            minHeight: "6rem",
+          }}
+        >
+          <Typography
+            component="div"
+            variant="body1"
+            flexGrow={1}
+            width="100%"
+            height="2rem"
+            sx={{
+              position: "absolute",
+              fontFamily: "Roboto",
+              textAlign: "left",
+              color: "text.primary",
+            }}
+          >
+            Thanks to our vast network of contacts, If we cannot develop your
+            site ourselves, we will find someone matching your requirements who
+            can.
+          </Typography>
+        </Box>
+        
       </Box>
     );
   }
