@@ -14,7 +14,7 @@ import { Component } from "react";
 class TopImage extends Component {
   render() {
     return (
-      <Box>
+      <Box style={{ backgroundColor: "whitesmoke" }}>
         <Box style={{ position: "relative", marginBottom: "-1rem" }}>
           <img
             style={{
@@ -805,7 +805,7 @@ class TopImage extends Component {
             position: "relative",
             maxWidth: "80%",
             margin: "auto",
-            marginBottom: "1rem",
+            marginBottom: "5rem",
             justifyContent: "center",
             alignItems: "center",
             minHeight: "6rem",
@@ -828,6 +828,71 @@ class TopImage extends Component {
             long-term commitment to every site it takes an interest in, with a
             drive to provide exemplar developments that leave a legacy to move
             beyond just placemaking to truly influence an experience.
+          </Typography>
+        </Box>
+        <Box
+          style={{
+            position: "relative",
+            maxWidth: "80%",
+            margin: "auto",
+            justifyContent: "center",
+            alignItems: "center",
+            minHeight: "4rem",
+          }}
+        >
+          <Typography
+            component="div"
+            variant="h5"
+            flexGrow={1}
+            width="100%"
+            height="2rem"
+            sx={{
+              position: "absolute",
+              fontFamily: "Roboto",
+              textAlign: "center",
+              color: "text.primary",
+            }}
+          >
+            Contact Us
+          </Typography>
+        </Box>
+        <Box
+          style={{
+            position: "relative",
+            maxWidth: "80%",
+            margin: "auto",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Typography
+            component="div"
+            variant="h6"
+            flexGrow={1}
+            width="100%"
+            height="2rem"
+            sx={{
+              position: "absolute",
+              fontFamily: "Roboto",
+              textAlign: "center",
+              color: "text.primary",
+            }}
+          >
+            +44 7890 071854
+            <br />
+            landsourcing@lydiardcapital.com
+            <br />
+            Company Number: 14666861
+            <br />
+            C/O Easy Tax Citibase
+            <br />
+            510 Argentum House
+            <br />
+            Bristol Business Park Bristol
+            <br />
+            BS16 1EJ
+            <br />
+            United Kingdom
           </Typography>
         </Box>
       </Box>
