@@ -1,17 +1,15 @@
 import {
-  Box,
   Button,
   Container,
   List,
   ListItem,
   ListItemIcon,
-  ListItemText,
   Typography,
 } from "@mui/material";
 import CircleSharpIcon from "@mui/icons-material/CircleSharp";
 import { Component } from "react";
 
-class TopImage extends Component {
+class LandingPage extends Component {
   render() {
     return (
       <Container style={{ marginBottom: "18rem" }}>
@@ -43,7 +41,9 @@ class TopImage extends Component {
           </Typography>
         </Container>
         <Container style={{ position: "relative", marginBottom: "-1rem" }}>
-          <Container sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
+          <Container
+            sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
+          />
           <img
             style={{ width: "100%", height: "100%", filter: "brightness(85%)" }}
             src={process.env.PUBLIC_URL + "Group 19.png"}
@@ -69,7 +69,9 @@ class TopImage extends Component {
           </Typography>
         </Container>
         <Container style={{ position: "relative", marginBottom: "-1rem" }}>
-          <Container sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
+          <Container
+            sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
+          />
           <img
             style={{ width: "100%", height: "100%", filter: "brightness(75%)" }}
             src={process.env.PUBLIC_URL + "shard1.jpg"}
@@ -94,7 +96,9 @@ class TopImage extends Component {
           </Typography>
         </Container>
         <Container style={{ position: "relative" }}>
-          <Container sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
+          <Container
+            sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
+          />
           <img
             style={{ width: "100%", height: "100%" }}
             src={process.env.PUBLIC_URL + "buildings-1835643.jpg"}
@@ -216,7 +220,9 @@ class TopImage extends Component {
           {/* TODO: Make contact button direct user to contact area */}
         </Container>
         <Container style={{ position: "relative" }}>
-          <Container sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
+          <Container
+            sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
+          />
           <img
             style={{ width: "100%", height: "100%" }}
             src={process.env.PUBLIC_URL + "Group 20.png"}
@@ -319,7 +325,9 @@ class TopImage extends Component {
           </List>
         </Container>
         <Container style={{ position: "relative" }}>
-          <Container sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
+          <Container
+            sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
+          />
           <img
             style={{ width: "100%", height: "100%" }}
             src={process.env.PUBLIC_URL + "Group 18.png"}
@@ -419,7 +427,9 @@ class TopImage extends Component {
           </List>
         </Container>
         <Container style={{ position: "relative" }}>
-          <Container sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
+          <Container
+            sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
+          />
           <img
             style={{ width: "100%", height: "100%" }}
             src={process.env.PUBLIC_URL + "Group 21.png"}
@@ -572,7 +582,9 @@ class TopImage extends Component {
           </Typography>
         </Container>
         <Container style={{ position: "relative" }}>
-          <Container sx={{ backgroundColor: "secondary.main", height: "0.3rem" }} />
+          <Container
+            sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
+          />
           <img
             style={{ width: "100%", height: "100%" }}
             src={process.env.PUBLIC_URL + "Group 22.png"}
@@ -900,4 +912,4 @@ class TopImage extends Component {
   }
 }
 
-export default TopImage;
+export default LandingPage;
