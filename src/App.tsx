@@ -1,11 +1,4 @@
-import React from "react";
-import {
-  Box,
-  CssBaseline,
-  Paper,
-  Typography,
-  ThemeProvider,
-} from "@mui/material";
+import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { routes as appRoutes } from "./routes";
@@ -18,14 +11,9 @@ function App() {
     palette: {
       primary: {
         main: "#000000",
-        light: "#6a7b83",
-        dark: "#303e46",
       },
       secondary: {
         main: "#880E4F",
-      },
-      info: {
-        main: "#A38A00",
       },
       text: {
         primary: "#000000",
