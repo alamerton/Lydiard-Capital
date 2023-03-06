@@ -1,5 +1,5 @@
-import React, { ReactElement, FC } from "react";
-import { Box, Container } from "@mui/material";
+import { ReactElement, FC } from "react";
+import { Box } from "@mui/material";
 import ConstructionCostsCard from "../components/ConstructionCostsCard";
 import ContactCard from "../components/ContactCard";
 import ExceptionalCard from "../components/ExceptionalCard";
@@ -10,14 +10,11 @@ import LandDevelopmentPromotionCard from "../components/LandDevelopmentPromotion
 import SitesCard from "../components/SitesCard";
 import TopBanner from "../components/TopBanner";
 import TrueQualityLastsCard from "../components/TrueQualityLastsCard";
+import Footer from "../components/Footer";
 
 const Home: FC<any> = (): ReactElement => {
   return (
-    <Box
-      sx={{
-        marginBottom: "18rem",
-      }}
-    >
+    <Box sx={{ minHeight: "100%" }}>
       <TopBanner />
       <GrossDevelopmentValueCard />
       <ConstructionCostsCard />

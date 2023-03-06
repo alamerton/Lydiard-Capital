@@ -4,7 +4,7 @@ import { Component } from "react";
 class ContactCard extends Component {
   render() {
     return (
-      <Container style={{ position: "relative" }}>
+      <Container style={{ position: "absolute" }}>
         <Container
           style={{
             position: "relative",
@@ -12,7 +12,7 @@ class ContactCard extends Component {
             margin: "auto",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "4rem",
+            height: "4rem",
           }}
         >
           <Typography

@@ -1,7 +1,7 @@
 import { Container, Typography } from "@mui/material";
 import { Component } from "react";
 
-class TopBaner extends Component {
+class TopBanner extends Component {
   render() {
     return (
       <Container style={{ position: "relative", marginBottom: "-1rem" }}>
@@ -35,4 +35,4 @@ class TopBaner extends Component {
   }
 }
 
-export default TopBaner;
+export default TopBanner;

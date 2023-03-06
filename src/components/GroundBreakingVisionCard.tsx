@@ -17,7 +17,7 @@ class GroundBreakingVisionCard extends Component {
             marginTop: "1rem",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "5rem",
+            height: "5rem",
           }}
         >
           <Typography
@@ -43,7 +43,7 @@ class GroundBreakingVisionCard extends Component {
             margin: "auto",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "6rem",
+            height: "6rem",
           }}
         >
           <Typography

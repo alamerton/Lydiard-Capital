@@ -1,22 +1,21 @@
-import React, { FC, ReactElement } from "react";
-import { Box, Container, Grid, Typography } from "@mui/material";
-import Logo from "./Logo";
+import { FC, ReactElement } from "react";
+import { Box, Container } from "@mui/material";
 import BigLogo from "./BigLogo";
 
 export const Footer: FC = (): ReactElement => {
   return (
-    <Box
+    <Container
       sx={{
-        width: "100%",
+        position: "absolute",
         height: "10rem",
+        bottom: 0,
         backgroundColor: "primary.main",
-        display: "flex",
       }}
     >
-      <Box sx={{ margin: "auto" }}>
+      <Container sx={{ margin: "auto" }}>
         <BigLogo />
-      </Box>
-    </Box>
+      </Container>
+    </Container>
   );
 };
 

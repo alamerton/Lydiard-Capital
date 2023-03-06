@@ -16,28 +16,30 @@ class InvestmentArmCard extends Component {
         <Container
           sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
         />
-        <img
-          style={{ width: "100%", height: "100%" }}
-          src={process.env.PUBLIC_URL + "Group 18.png"}
-          alt="cannot display"
-        />
-        <Typography
-          component="div"
-          variant="h5"
-          flexGrow={1}
-          sx={{
-            position: "absolute",
-            bottom: "1rem",
-            left: "2.75rem",
-            fontFamily: "Source Serif 4",
-            fontWeight: "bold",
-            fontStyle: "italic",
-            textAlign: "left",
-            color: "text.secondary",
-          }}
-        >
-          The Investment Arm
-        </Typography>
+        <Container style={{ position: "relative" }}>
+          <img
+            style={{ width: "100%", height: "100%" }}
+            src={process.env.PUBLIC_URL + "Group 18.png"}
+            alt="cannot display"
+          />
+          <Typography
+            component="div"
+            variant="h5"
+            flexGrow={1}
+            sx={{
+              position: "absolute",
+              bottom: "1rem",
+              left: "2.75rem",
+              fontFamily: "Source Serif 4",
+              fontWeight: "bold",
+              fontStyle: "italic",
+              textAlign: "left",
+              color: "text.secondary",
+            }}
+          >
+            The Investment Arm
+          </Typography>
+        </Container>
         <Container
           style={{
             position: "relative",

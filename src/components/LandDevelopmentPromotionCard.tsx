@@ -20,24 +20,26 @@ class LandDevelopmentPromotionCard extends Component {
           src={process.env.PUBLIC_URL + "Group 20.png"}
           alt="cannot display"
         />
-        <Typography
-          component="div"
-          variant="h5"
-          flexGrow={1}
-          sx={{
-            position: "absolute",
-            bottom: "1rem",
-            left: "2.75rem",
-            fontFamily: "Source Serif 4",
-            fontWeight: "bold",
-            fontStyle: "italic",
-            textAlign: "left",
-            color: "text.secondary",
-          }}
-        >
-          The Land <br />
-          Development/Promotion Arm
-        </Typography>
+        <Container style={{ position: "relative" }}>
+          <Typography
+            component="div"
+            variant="h5"
+            flexGrow={1}
+            sx={{
+              position: "absolute",
+              left: "2.75rem",
+              bottom: "1rem",
+              fontFamily: "Source Serif 4",
+              fontWeight: "bold",
+              fontStyle: "italic",
+              textAlign: "left",
+              color: "text.secondary",
+            }}
+          >
+            The Land <br />
+            Development/Promotion Arm
+          </Typography>
+        </Container>
         <Container
           style={{
             position: "relative",
