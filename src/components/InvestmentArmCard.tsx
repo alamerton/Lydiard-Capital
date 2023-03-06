@@ -1,4 +1,5 @@
 import {
+  Button,
   Container,
   List,
   ListItem,
@@ -8,7 +9,7 @@ import {
 import CircleSharpIcon from "@mui/icons-material/CircleSharp";
 import { Component } from "react";
 
-class LandDevelopmentPromotionCard extends Component {
+class InvestmentArmCard extends Component {
   render() {
     return (
       <Container style={{ position: "relative" }}>
@@ -17,7 +18,7 @@ class LandDevelopmentPromotionCard extends Component {
         />
         <img
           style={{ width: "100%", height: "100%" }}
-          src={process.env.PUBLIC_URL + "Group 20.png"}
+          src={process.env.PUBLIC_URL + "Group 18.png"}
           alt="cannot display"
         />
         <Typography
@@ -35,8 +36,7 @@ class LandDevelopmentPromotionCard extends Component {
             color: "text.secondary",
           }}
         >
-          The Land <br />
-          Development/Promotion Arm
+          The Investment Arm
         </Typography>
         <Container
           style={{
@@ -62,9 +62,9 @@ class LandDevelopmentPromotionCard extends Component {
               color: "text.primary",
             }}
           >
-            We promote and masterplan developments to attain detailed planning
-            consent and sell the majority of the subdivided phases to the
-            following customers:
+            This section of the business acquires and holds sites to generate a
+            sufficient annual yield in the form of rental income. This will
+            include the following methods of capital generation:
           </Typography>
         </Container>
         <Container
@@ -72,7 +72,7 @@ class LandDevelopmentPromotionCard extends Component {
             position: "relative",
             maxWidth: "80%",
             margin: "auto",
-            marginTop: "1rem",
+            marginTop: "2rem",
             marginBottom: "1rem",
             justifyContent: "center",
             alignItems: "center",
@@ -85,7 +85,7 @@ class LandDevelopmentPromotionCard extends Component {
                 <CircleSharpIcon style={{ height: "0.5rem" }} />
               </ListItemIcon>
               <Typography sx={{ fontFamily: "Roboto" }}>
-                Housebuilders
+                Build to Rent
               </Typography>
             </ListItem>
             <ListItem style={{ paddingTop: 0, paddingBottom: 0 }}>
@@ -93,7 +93,8 @@ class LandDevelopmentPromotionCard extends Component {
                 <CircleSharpIcon style={{ height: "0.5rem" }} />
               </ListItemIcon>
               <Typography sx={{ fontFamily: "Roboto" }}>
-                Registered Providers
+                Logistical/Industrial Units if they meet our requirements as
+                part of our larger residential led mixed-use schemes.
               </Typography>
             </ListItem>
             <ListItem style={{ paddingTop: 0, paddingBottom: 0 }}>
@@ -101,16 +102,14 @@ class LandDevelopmentPromotionCard extends Component {
                 <CircleSharpIcon style={{ height: "0.5rem" }} />
               </ListItemIcon>
               <Typography sx={{ fontFamily: "Roboto" }}>
-                Industrial/Logistics Companies
+                Retail Units
               </Typography>
             </ListItem>
             <ListItem style={{ paddingTop: 0, paddingBottom: 0 }}>
               <ListItemIcon>
                 <CircleSharpIcon style={{ height: "0.5rem" }} />
               </ListItemIcon>
-              <Typography sx={{ fontFamily: "Roboto" }}>
-                Asset Managers/Investment/Pension Funds
-              </Typography>
+              <Typography sx={{ fontFamily: "Roboto" }}>Hotels</Typography>
             </ListItem>
           </List>
         </Container>
@@ -119,4 +118,4 @@ class LandDevelopmentPromotionCard extends Component {
   }
 }
 
-export default LandDevelopmentPromotionCard;
+export default InvestmentArmCard;
