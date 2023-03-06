@@ -28,7 +28,7 @@ class ExceptionalCard extends Component {
             flexGrow={1}
             sx={{
               position: "absolute",
-              // bottom: "10.5rem",
+              bottom: "10.5rem",
               right: "1rem",
               left: "3rem",
               fontFamily: "Source Serif 4",

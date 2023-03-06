@@ -15,30 +15,32 @@ class LandDevelopmentPromotionCard extends Component {
         <Container
           sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
         />
-        <img
-          style={{ width: "100%", height: "100%" }}
-          src={process.env.PUBLIC_URL + "Group 20.png"}
-          alt="cannot display"
-        />
         <Container style={{ position: "relative" }}>
-          <Typography
-            component="div"
-            variant="h5"
-            flexGrow={1}
-            sx={{
-              position: "absolute",
-              left: "2.75rem",
-              bottom: "1rem",
-              fontFamily: "Source Serif 4",
-              fontWeight: "bold",
-              fontStyle: "italic",
-              textAlign: "left",
-              color: "text.secondary",
-            }}
-          >
-            The Land <br />
-            Development/Promotion Arm
-          </Typography>
+          <img
+            style={{ width: "100%", height: "100%" }}
+            src={process.env.PUBLIC_URL + "Group 20.png"}
+            alt="cannot display"
+          />
+          <Container style={{ position: "relative" }}>
+            <Typography
+              component="div"
+              variant="h5"
+              flexGrow={1}
+              sx={{
+                position: "absolute",
+                left: "2.75rem",
+                bottom: "1rem",
+                fontFamily: "Source Serif 4",
+                fontWeight: "bold",
+                fontStyle: "italic",
+                textAlign: "left",
+                color: "text.secondary",
+              }}
+            >
+              The Land <br />
+              Development/Promotion Arm
+            </Typography>
+          </Container>
         </Container>
         <Container
           style={{
