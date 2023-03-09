@@ -10,7 +10,7 @@ class TrueQualityLastsCard extends Component {
             sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
           />
           <img
-            style={{ width: "100%", height: "100%" }}
+            style={{ width: "100%", height: "6rem" }}
             src={process.env.PUBLIC_URL + "Group 22.png"}
             alt="cannot display"
           />
@@ -40,7 +40,8 @@ class TrueQualityLastsCard extends Component {
             marginTop: "1rem",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "5rem",
+            // minheight: "6rem",
+            height: "6rem",
           }}
         >
           <Typography
@@ -48,7 +49,6 @@ class TrueQualityLastsCard extends Component {
             variant="h5"
             flexGrow={1}
             width="100%"
-            height="2rem"
             sx={{
               position: "absolute",
               fontFamily: "Roboto",
@@ -67,7 +67,7 @@ class TrueQualityLastsCard extends Component {
             marginBottom: "1rem",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "6rem",
+            height: "6rem",
           }}
         >
           <Typography
@@ -75,7 +75,6 @@ class TrueQualityLastsCard extends Component {
             variant="body1"
             flexGrow={1}
             width="100%"
-            height="2rem"
             sx={{
               position: "absolute",
               fontFamily: "Roboto",
@@ -96,7 +95,7 @@ class TrueQualityLastsCard extends Component {
             marginBottom: "1rem",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "6rem",
+            height: "6rem",
           }}
         >
           <Typography
@@ -104,7 +103,6 @@ class TrueQualityLastsCard extends Component {
             variant="body1"
             flexGrow={1}
             width="100%"
-            height="2rem"
             sx={{
               position: "absolute",
               fontFamily: "Roboto",
@@ -125,7 +123,7 @@ class TrueQualityLastsCard extends Component {
             marginBottom: "4rem",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "6rem",
+            height: "6rem",
           }}
         >
           <Typography
@@ -133,7 +131,6 @@ class TrueQualityLastsCard extends Component {
             variant="body1"
             flexGrow={1}
             width="100%"
-            height="2rem"
             sx={{
               position: "absolute",
               fontFamily: "Roboto",
@@ -155,7 +152,7 @@ class TrueQualityLastsCard extends Component {
             marginBottom: "-1.5rem",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "5rem",
+            height: "6rem",
           }}
         >
           <Typography
@@ -163,7 +160,6 @@ class TrueQualityLastsCard extends Component {
             variant="h5"
             flexGrow={1}
             width="100%"
-            height="2rem"
             sx={{
               position: "absolute",
               fontFamily: "Roboto",
@@ -182,7 +178,7 @@ class TrueQualityLastsCard extends Component {
             marginBottom: "1rem",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "6rem",
+            height: "6rem",
           }}
         >
           <Typography
@@ -190,7 +186,6 @@ class TrueQualityLastsCard extends Component {
             variant="body1"
             flexGrow={1}
             width="100%"
-            height="2rem"
             sx={{
               position: "absolute",
               fontFamily: "Roboto",
@@ -211,7 +206,7 @@ class TrueQualityLastsCard extends Component {
             marginBottom: "10rem",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "6rem",
+            height: "6rem",
           }}
         >
           <Typography
@@ -219,7 +214,6 @@ class TrueQualityLastsCard extends Component {
             variant="body1"
             flexGrow={1}
             width="100%"
-            height="2rem"
             sx={{
               position: "absolute",
               fontFamily: "Roboto",
@@ -244,7 +238,7 @@ class TrueQualityLastsCard extends Component {
             marginBottom: "5rem",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "6rem",
+            height: "6rem",
           }}
         >
           <Typography
@@ -252,7 +246,6 @@ class TrueQualityLastsCard extends Component {
             variant="body1"
             flexGrow={1}
             width="100%"
-            height="2rem"
             sx={{
               position: "absolute",
               fontFamily: "Roboto",

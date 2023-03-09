@@ -11,10 +11,11 @@ import SitesCard from "../components/SitesCard";
 import TopBanner from "../components/TopBanner";
 import TrueQualityLastsCard from "../components/TrueQualityLastsCard";
 import Footer from "../components/Footer";
+import FooterCard from "../components/FooterCard";
 
 const Home: FC<any> = (): ReactElement => {
   return (
-    <Box sx={{ minHeight: "100%" }}>
+    <Box>
       <TopBanner />
       <GrossDevelopmentValueCard />
       <ConstructionCostsCard />
@@ -25,6 +26,7 @@ const Home: FC<any> = (): ReactElement => {
       <SitesCard />
       <TrueQualityLastsCard />
       <ContactCard />
+      {/* <FooterCard /> */}
     </Box>
   );
 };
