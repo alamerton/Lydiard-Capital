@@ -31,7 +31,7 @@ function App() {
       <CssBaseline />
       <Box display="flex" flexDirection="column">
         <Router>
-          {/* <Navbar /> */}
+          <Navbar />
           <Routes>
             {appRoutes.map((route) => (
               <Route
