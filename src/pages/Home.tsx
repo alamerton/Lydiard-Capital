@@ -16,16 +16,16 @@ import FooterCard from "../components/FooterCard";
 const Home: FC<any> = (): ReactElement => {
   return (
     <Box>
-      <TopBanner />
-      <GrossDevelopmentValueCard />
-      <ConstructionCostsCard />
-      <ExceptionalCard />
-      <GroundBreakingVisionCard />
-      <LandDevelopmentPromotionCard />
-      <InvestmentArmCard />
-      <SitesCard />
-      <TrueQualityLastsCard />
-      <ContactCard />
+      {/* <TopBanner /> */}
+      {/* <GrossDevelopmentValueCard /> */}
+      {/* <ConstructionCostsCard /> */}
+      {/* <ExceptionalCard /> */}
+      {/* <GroundBreakingVisionCard /> */}
+      {/* <LandDevelopmentPromotionCard /> */}
+      {/* <InvestmentArmCard /> */}
+      {/* <SitesCard /> */}
+      {/* <TrueQualityLastsCard /> */}
+      {/* <ContactCard /> */}
       {/* <FooterCard /> */}
     </Box>
   );
