@@ -16,7 +16,7 @@ import FooterCard from "../components/FooterCard";
 const Home: FC<any> = (): ReactElement => {
   return (
     <Box>
-      {/* <TopBanner /> */}
+      <TopBanner />
       {/* <GrossDevelopmentValueCard /> */}
       {/* <ConstructionCostsCard /> */}
       {/* <ExceptionalCard /> */}
