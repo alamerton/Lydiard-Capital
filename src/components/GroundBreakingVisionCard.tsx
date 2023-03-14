@@ -7,6 +7,7 @@ class GroundBreakingVisionCard extends Component {
       <Container
         style={{
           position: "relative",
+          top: "2rem",
         }}
       >
         <Container
@@ -95,15 +96,15 @@ class GroundBreakingVisionCard extends Component {
         <Container
           style={{
             position: "relative",
-            maxWidth: "30%",
+            maxWidth: "40%",
             margin: "auto",
             marginTop: "2rem",
             marginBottom: "3rem",
             minHeight: "2rem",
+            textAlign: "center",
           }}
         >
           <Button variant="contained">Contact us</Button>
-          {/* TODO: Make contact button direct user to contact area */}
         </Container>
       </Container>
     );

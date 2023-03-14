@@ -20,7 +20,7 @@ const Home: FC<any> = (): ReactElement => {
       <GrossDevelopmentValueCard />
       <ConstructionCostsCard />
       <ExceptionalCard />
-      {/* <GroundBreakingVisionCard /> */}
+      <GroundBreakingVisionCard />
       {/* <LandDevelopmentPromotionCard /> */}
       {/* <InvestmentArmCard /> */}
       {/* <SitesCard /> */}

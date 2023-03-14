@@ -1,12 +1,4 @@
-import {
-  Button,
-  Container,
-  List,
-  ListItem,
-  ListItemIcon,
-  Typography,
-} from "@mui/material";
-import CircleSharpIcon from "@mui/icons-material/CircleSharp";
+import { Container, Typography } from "@mui/material";
 import { Component } from "react";
 
 class ExceptionalCard extends Component {
