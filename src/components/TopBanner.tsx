@@ -44,7 +44,7 @@ class TopBanner extends Component {
               lg: "5rem",
               xl: "5rem",
             },
-            textAlign: "right",
+            // textAlign: "right",
             color: "text.secondary",
           }}
         >

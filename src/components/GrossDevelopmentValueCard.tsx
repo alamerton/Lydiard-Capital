@@ -1,39 +1,66 @@
 import { Container, Typography } from "@mui/material";
-import CircleSharpIcon from "@mui/icons-material/CircleSharp";
 import { Component } from "react";
 
 class GrossDevelopmentValueCard extends Component {
   render() {
     return (
-      <Container style={{ position: "relative", marginBottom: "-1rem" }}>
+      <Container
+        sx={{
+          position: "relative",
+          marginBottom: "-1rem",
+          margin: "auto",
+          height: {
+            xs: "100%",
+            sm: "100%",
+            md: "90vh",
+            lg: "90vh",
+            xl: "90vh",
+          },
+        }}
+      >
         <Container
           sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
         />
-        <Container style={{ position: "relative", marginBottom: "-1rem" }}>
-          <img
-            style={{ width: "100%", height: "100%", filter: "brightness(85%)" }}
-            src={process.env.PUBLIC_URL + "Group 19.png"}
-            alt="cannot display"
-          />
-          <Typography
-            component="div"
-            variant="h6"
-            flexGrow={1}
-            sx={{
-              position: "absolute",
-              bottom: "11.5rem",
-              left: "1rem",
-              fontFamily: "Source Serif 4",
-              fontWeight: "bold",
-              fontStyle: "italic",
-              textAlign: "left",
-              color: "text.secondary",
-            }}
-          >
-            Maximising Gross Development Value across both Brownfield and
-            Greenfield land
-          </Typography>
-        </Container>
+        <img
+          style={{
+            width: "100%",
+            height: "100%",
+          }}
+          src={process.env.PUBLIC_URL + "Group 19.png"}
+          alt="cannot display"
+        />
+        <Typography
+          component="div"
+          variant="h6"
+          flexGrow={1}
+          sx={{
+            position: "absolute",
+            right: "1rem",
+            bottom: {
+              xs: "1rem",
+              sm: "1rem",
+              md: "1rem",
+              lg: "1rem",
+              xl: "1rem",
+            },
+            left: "1rem",
+            fontFamily: "Source Serif 4",
+            fontWeight: "bold",
+            fontStyle: "italic",
+            fontSize: {
+              xs: "1.5rem",
+              sm: "2rem",
+              md: "2.5rem",
+              lg: "3rem",
+              xl: "3rem",
+            },
+            textAlign: "left",
+            color: "text.secondary",
+          }}
+        >
+          Maximising Gross Development Value across both Brownfield and
+          Greenfield land
+        </Typography>
       </Container>
     );
   }
