@@ -32,7 +32,7 @@ class ConstructionCostsCard extends Component {
           sx={{
             position: "absolute",
             right: "1rem",
-            bottom: "1rem",
+            top: "1rem",
             left: "1rem",
             fontFamily: "Source Serif 4",
             fontWeight: "bold",
