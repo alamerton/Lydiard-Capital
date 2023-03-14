@@ -8,7 +8,6 @@ class TopBanner extends Component {
         sx={{
           position: "relative",
           marginBottom: "-1rem",
-          margin: "auto",
           height: {
             xs: "100%",
             sm: "100%",
@@ -44,7 +43,6 @@ class TopBanner extends Component {
               lg: "5rem",
               xl: "5rem",
             },
-            // textAlign: "right",
             color: "text.secondary",
           }}
         >

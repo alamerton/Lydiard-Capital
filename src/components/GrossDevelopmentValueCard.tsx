@@ -8,7 +8,6 @@ class GrossDevelopmentValueCard extends Component {
         sx={{
           position: "relative",
           marginBottom: "-1rem",
-          margin: "auto",
           height: {
             xs: "100%",
             sm: "100%",
@@ -36,13 +35,7 @@ class GrossDevelopmentValueCard extends Component {
           sx={{
             position: "absolute",
             right: "1rem",
-            bottom: {
-              xs: "1rem",
-              sm: "1rem",
-              md: "1rem",
-              lg: "1rem",
-              xl: "1rem",
-            },
+            bottom: "1rem",
             left: "1rem",
             fontFamily: "Source Serif 4",
             fontWeight: "bold",
