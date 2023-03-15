@@ -11,14 +11,17 @@ class GroundBreakingVisionCard extends Component {
         }}
       >
         <Container
-          style={{
+          sx={{
             position: "relative",
             maxWidth: "80%",
             margin: "auto",
             marginTop: "1rem",
             justifyContent: "center",
             alignItems: "center",
-            height: "5rem",
+            height: {
+              xs: "6rem",
+              xl: "6rem",
+            },
           }}
         >
           <Typography
@@ -32,19 +35,35 @@ class GroundBreakingVisionCard extends Component {
               fontFamily: "Roboto",
               textAlign: "center",
               color: "text.primary",
+              fontSize: {
+                xs: "1.5rem",
+                sm: "2rem",
+                md: "2.5rem",
+                lg: "3rem",
+                xl: "3rem",
+              },
             }}
           >
             Be Part of a Ground-Breaking Vision
           </Typography>
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
-            maxWidth: "80%",
+            maxWidth: {
+              xs: "80%",
+              lg: "75%",
+            },
             margin: "auto",
             justifyContent: "center",
             alignItems: "center",
-            height: "6rem",
+            height: {
+              xs: "6rem",
+              sm: "8rem",
+              md: "7rem",
+              lg: "6rem",
+              xl: "6rem",
+            },
           }}
         >
           <Typography
@@ -58,6 +77,13 @@ class GroundBreakingVisionCard extends Component {
               fontFamily: "Roboto",
               textAlign: "left",
               color: "text.primary",
+              fontSize: {
+                xs: "1rem",
+                sm: "1.5rem",
+                md: "1.5rem",
+                lg: "1.5rem",
+                xl: "1.5em",
+              },
             }}
           >
             We work in partnership with landowners & Investors and navigate the
@@ -65,14 +91,23 @@ class GroundBreakingVisionCard extends Component {
           </Typography>
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
-            maxWidth: "80%",
+            maxWidth: {
+              xs: "80%",
+              lg: "75%",
+            },
             margin: "auto",
             marginTop: "1rem",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "6rem",
+            height: {
+              xs: "6rem",
+              sm: "8rem",
+              md: "8rem",
+              lg: "6rem",
+              xl: "6rem",
+            },
           }}
         >
           <Typography
@@ -86,6 +121,13 @@ class GroundBreakingVisionCard extends Component {
               fontFamily: "Roboto",
               textAlign: "left",
               color: "text.primary",
+              fontSize: {
+                xs: "1rem",
+                sm: "1.5rem",
+                md: "1.5rem",
+                lg: "1.5rem",
+                xl: "1.5em",
+              },
             }}
           >
             We take long-term interest in our sites to generate sufficient
@@ -94,17 +136,22 @@ class GroundBreakingVisionCard extends Component {
           </Typography>
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
             maxWidth: "40%",
             margin: "auto",
             marginTop: "2rem",
             marginBottom: "3rem",
-            minHeight: "2rem",
+            minHeight: {
+              xs: "2rem",
+              sm: "3rem",
+            },
             textAlign: "center",
           }}
         >
-          <Button variant="contained">Contact us</Button>
+          <Button variant="contained" size="large">
+            Contact us
+          </Button>
         </Container>
       </Container>
     );

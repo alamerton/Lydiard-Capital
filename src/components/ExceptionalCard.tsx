@@ -8,20 +8,14 @@ class ExceptionalCard extends Component {
         sx={{
           position: "relative",
           marginBottom: "-1rem",
-          height: {
-            xs: "100%",
-            sm: "100%",
-            md: "90vh",
-            lg: "90vh",
-            xl: "90vh",
-          },
+          height: "100%",
         }}
       >
         <Container
           sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
         />
         <img
-          style={{ width: "100%", height: "100%" }}
+          style={{ width: "100%", height: "100%", objectFit: "cover" }}
           src={process.env.PUBLIC_URL + "buildings-1835643.jpg"}
           alt="cannot display"
         />

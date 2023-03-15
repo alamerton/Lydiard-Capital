@@ -8,13 +8,7 @@ class ConstructionCostsCard extends Component {
         sx={{
           position: "relative",
           marginBottom: "-1rem",
-          height: {
-            xs: "100%",
-            sm: "100%",
-            md: "90vh",
-            lg: "90vh",
-            xl: "90vh",
-          },
+          height: "100%",
         }}
       >
         <Container
