@@ -22,7 +22,7 @@ const Home: FC<any> = (): ReactElement => {
       <ExceptionalCard />
       <GroundBreakingVisionCard />
       <LandDevelopmentPromotionCard />
-      {/* <InvestmentArmCard /> */}
+      <InvestmentArmCard />
       {/* <SitesCard /> */}
       {/* <TrueQualityLastsCard /> */}
       {/* <ContactCard /> */}

@@ -33,6 +33,13 @@ class InvestmentArmCard extends Component {
               fontFamily: "Source Serif 4",
               fontWeight: "bold",
               fontStyle: "italic",
+              fontSize: {
+                xs: "1.5rem",
+                sm: "2rem",
+                md: "2.5rem",
+                lg: "3rem",
+                xl: "3rem",
+              },
               textAlign: "left",
               color: "text.secondary",
             }}
@@ -41,14 +48,22 @@ class InvestmentArmCard extends Component {
           </Typography>
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
-            maxWidth: "80%",
+            maxWidth: {
+              xs: "80%",
+              lg: "75%",
+            },
             margin: "auto",
             marginTop: "1rem",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "6rem",
+            height: {
+              xs: "5.5rem",
+              sm: "7rem",
+              md: "5rem",
+              lg: "5rem",
+            },
           }}
         >
           <Typography
@@ -62,6 +77,10 @@ class InvestmentArmCard extends Component {
               fontFamily: "Roboto",
               textAlign: "left",
               color: "text.primary",
+              fontSize: {
+                xs: "1rem",
+                sm: "1.5rem",
+              },
             }}
           >
             This section of the business acquires and holds sites to generate a
@@ -81,12 +100,26 @@ class InvestmentArmCard extends Component {
             minHeight: "6rem",
           }}
         >
-          <List>
+          <List
+            sx={{
+              left: {
+                lg: "2rem",
+              },
+            }}
+          >
             <ListItem style={{ paddingTop: 0, paddingBottom: 0 }}>
               <ListItemIcon>
                 <CircleSharpIcon style={{ height: "0.5rem" }} />
               </ListItemIcon>
-              <Typography sx={{ fontFamily: "Roboto" }}>
+              <Typography
+                sx={{
+                  fontFamily: "Roboto",
+                  fontSize: {
+                    xs: "1rem",
+                    sm: "1.5rem",
+                  },
+                }}
+              >
                 Build to Rent
               </Typography>
             </ListItem>
@@ -94,7 +127,15 @@ class InvestmentArmCard extends Component {
               <ListItemIcon>
                 <CircleSharpIcon style={{ height: "0.5rem" }} />
               </ListItemIcon>
-              <Typography sx={{ fontFamily: "Roboto" }}>
+              <Typography
+                sx={{
+                  fontFamily: "Roboto",
+                  fontSize: {
+                    xs: "1rem",
+                    sm: "1.5rem",
+                  },
+                }}
+              >
                 Logistical/Industrial Units if they meet our requirements as
                 part of our larger residential led mixed-use schemes.
               </Typography>
@@ -103,7 +144,15 @@ class InvestmentArmCard extends Component {
               <ListItemIcon>
                 <CircleSharpIcon style={{ height: "0.5rem" }} />
               </ListItemIcon>
-              <Typography sx={{ fontFamily: "Roboto" }}>
+              <Typography
+                sx={{
+                  fontFamily: "Roboto",
+                  fontSize: {
+                    xs: "1rem",
+                    sm: "1.5rem",
+                  },
+                }}
+              >
                 Retail Units
               </Typography>
             </ListItem>
@@ -111,7 +160,17 @@ class InvestmentArmCard extends Component {
               <ListItemIcon>
                 <CircleSharpIcon style={{ height: "0.5rem" }} />
               </ListItemIcon>
-              <Typography sx={{ fontFamily: "Roboto" }}>Hotels</Typography>
+              <Typography
+                sx={{
+                  fontFamily: "Roboto",
+                  fontSize: {
+                    xs: "1rem",
+                    sm: "1.5rem",
+                  },
+                }}
+              >
+                Hotels
+              </Typography>
             </ListItem>
           </List>
         </Container>
