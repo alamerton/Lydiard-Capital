@@ -80,9 +80,6 @@ class GroundBreakingVisionCard extends Component {
               fontSize: {
                 xs: "1rem",
                 sm: "1.5rem",
-                md: "1.5rem",
-                lg: "1.5rem",
-                xl: "1.5em",
               },
             }}
           >
