@@ -1,7 +1,7 @@
 import { Button, Container, Typography } from "@mui/material";
 import { Component } from "react";
 
-class TrueQualityLastsComponent extends Component {
+class TrueQualityLastsCard extends Component {
   render() {
     return (
       <Container style={{ position: "relative" }}>
@@ -60,11 +60,14 @@ class TrueQualityLastsComponent extends Component {
           </Typography>
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
             maxWidth: "80%",
             margin: "auto",
-            marginBottom: "1rem",
+            marginBottom: {
+              xs: "1rem",
+              sm: "2rem",
+            },
             justifyContent: "center",
             alignItems: "center",
             height: "6rem",
@@ -264,4 +267,4 @@ class TrueQualityLastsComponent extends Component {
   }
 }
 
-export default TrueQualityLastsComponent;
+export default TrueQualityLastsCard;
