@@ -1,7 +1,7 @@
 import { Container, Typography } from "@mui/material";
 import { Component } from "react";
 
-class GrossDevelopmentValueCard extends Component {
+class ExceptionalComponent extends Component {
   render() {
     return (
       <Container
@@ -15,11 +15,8 @@ class GrossDevelopmentValueCard extends Component {
           sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
         />
         <img
-          style={{
-            width: "100%",
-            height: "100%",
-          }}
-          src={process.env.PUBLIC_URL + "Group 19.png"}
+          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          src={process.env.PUBLIC_URL + "buildings-1835643.jpg"}
           alt="cannot display"
         />
         <Typography
@@ -45,12 +42,11 @@ class GrossDevelopmentValueCard extends Component {
             color: "text.secondary",
           }}
         >
-          Maximising Gross Development Value across both Brownfield and
-          Greenfield land
+          Designing Exceptional Residential-Led Mixed-Use developments
         </Typography>
       </Container>
     );
   }
 }
 
-export default GrossDevelopmentValueCard;
+export default ExceptionalComponent;

@@ -1,7 +1,7 @@
 import { Container, Typography } from "@mui/material";
 import { Component } from "react";
 
-class ExceptionalCard extends Component {
+class ConstructionCostsComponent extends Component {
   render() {
     return (
       <Container
@@ -15,8 +15,8 @@ class ExceptionalCard extends Component {
           sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
         />
         <img
-          style={{ width: "100%", height: "100%", objectFit: "cover" }}
-          src={process.env.PUBLIC_URL + "buildings-1835643.jpg"}
+          style={{ width: "100%", height: "100%", filter: "brightness(75%)" }}
+          src={process.env.PUBLIC_URL + "shard1.jpg"}
           alt="cannot display"
         />
         <Typography
@@ -42,11 +42,11 @@ class ExceptionalCard extends Component {
             color: "text.secondary",
           }}
         >
-          Designing Exceptional Residential-Led Mixed-Use developments
+          Keeping Construction Costs to a Minimum
         </Typography>
       </Container>
     );
   }
 }
 
-export default ExceptionalCard;
+export default ConstructionCostsComponent;

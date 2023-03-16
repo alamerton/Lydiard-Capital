@@ -1,32 +1,32 @@
 import { ReactElement, FC } from "react";
 import { Box } from "@mui/material";
-import ConstructionCostsCard from "../components/ConstructionCostsCard";
-import ContactCard from "../components/ContactCard";
-import ExceptionalCard from "../components/ExceptionalCard";
-import GrossDevelopmentValueCard from "../components/GrossDevelopmentValueCard";
-import GroundBreakingVisionCard from "../components/GroundBreakingVisionCard";
-import InvestmentArmCard from "../components/InvestmentArmCard";
-import LandDevelopmentPromotionCard from "../components/LandDevelopmentPromotionCard";
-import SitesCard from "../components/SitesCard";
+import ConstructionCostsComponent from "../components/ConstructionCostsComponent";
+import ContactComponent from "../components/ContactComponent";
+import ExceptionalComponent from "../components/ExceptionalComponent";
+import GrossDevelopmentValueComponent from "../components/GrossDevelopmentValueComponent";
+import GroundBreakingVisionComponent from "../components/GroundBreakingVisionComponent";
+import InvestmentArmComponent from "../components/InvestmentArmComponent";
+import LandDevelopmentPromotionComponent from "../components/LandDevelopmentPromotionComponent";
+import SitesComponent from "../components/SitesComponent";
 import TopBanner from "../components/TopBanner";
-import TrueQualityLastsCard from "../components/TrueQualityLastsCard";
+import TrueQualityLastsComponent from "../components/TrueQualityLastsComponent";
 import Footer from "../components/Footer";
-import FooterCard from "../components/FooterCard";
+import FooterComponent from "../components/FooterComponent";
 
 const Home: FC<any> = (): ReactElement => {
   return (
     <Box>
       <TopBanner />
-      <GrossDevelopmentValueCard />
-      <ConstructionCostsCard />
-      <ExceptionalCard />
-      <GroundBreakingVisionCard />
-      <LandDevelopmentPromotionCard />
-      <InvestmentArmCard />
-      {/* <SitesCard /> */}
-      {/* <TrueQualityLastsCard /> */}
-      {/* <ContactCard /> */}
-      {/* <FooterCard /> */}
+      <GrossDevelopmentValueComponent />
+      <ConstructionCostsComponent />
+      <ExceptionalComponent />
+      <GroundBreakingVisionComponent />
+      <LandDevelopmentPromotionComponent />
+      <InvestmentArmComponent />
+      <SitesComponent />
+      {/* <TrueQualityLastsComponent /> */}
+      {/* <ContactComponent /> */}
+      {/* <FooterComponent /> */}
     </Box>
   );
 };

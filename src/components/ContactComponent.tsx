@@ -1,7 +1,7 @@
 import { Container, Typography } from "@mui/material";
 import { Component } from "react";
 
-class ContactCard extends Component {
+class ContactComponent extends Component {
   render() {
     return (
       <Container style={{ position: "absolute" }}>
@@ -75,4 +75,4 @@ class ContactCard extends Component {
   }
 }
 
-export default ContactCard;
+export default ContactComponent;

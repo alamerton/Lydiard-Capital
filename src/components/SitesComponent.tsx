@@ -1,7 +1,7 @@
 import { Button, Container, Typography } from "@mui/material";
 import { Component } from "react";
 
-class SitesCard extends Component {
+class SitesComponent extends Component {
   render() {
     return (
       <Container style={{ position: "relative" }}>
@@ -26,6 +26,13 @@ class SitesCard extends Component {
               fontWeight: "bold",
               fontStyle: "italic",
               textAlign: "left",
+              fontSize: {
+                xs: "1.5rem",
+                sm: "2rem",
+                md: "2.5rem",
+                lg: "3rem",
+                xl: "3rem",
+              },
               color: "text.secondary",
             }}
           >
@@ -33,14 +40,20 @@ class SitesCard extends Component {
           </Typography>
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
             maxWidth: "80%",
             margin: "auto",
             marginTop: "1rem",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "6rem",
+            height: {
+              xs: "6rem",
+              sm: "8rem",
+              md: "8rem",
+              lg: "6rem",
+              xl: "6rem",
+            },
           }}
         >
           <Typography
@@ -53,6 +66,10 @@ class SitesCard extends Component {
               position: "absolute",
               fontFamily: "Roboto",
               textAlign: "left",
+              fontSize: {
+                xs: "1rem",
+                sm: "1.5rem",
+              },
               color: "text.primary",
             }}
           >
@@ -62,14 +79,20 @@ class SitesCard extends Component {
           </Typography>
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
             maxWidth: "80%",
             margin: "auto",
             marginTop: "1rem",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "6rem",
+            height: {
+              xs: "6rem",
+              sm: "8rem",
+              md: "8rem",
+              lg: "6rem",
+              xl: "6rem",
+            },
           }}
         >
           <Typography
@@ -82,6 +105,10 @@ class SitesCard extends Component {
               position: "absolute",
               fontFamily: "Roboto",
               textAlign: "left",
+              fontSize: {
+                xs: "1rem",
+                sm: "1.5rem",
+              },
               color: "text.primary",
             }}
           >
@@ -92,26 +119,36 @@ class SitesCard extends Component {
           </Typography>
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
-            maxWidth: "30%",
+            maxWidth: "40%",
             margin: "auto",
-            marginTop: "5rem",
+            marginTop: "2rem",
             marginBottom: "3rem",
-            minHeight: "2rem",
+            height: {
+              xs: "4rem",
+              sm: "5rem",
+            },
+            textAlign: "center",
           }}
         >
           <Button variant="contained">Contact us</Button>
           {/* TODO: Make contact button direct user to contact area */}
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
             maxWidth: "80%",
             margin: "auto",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "6rem",
+            height: {
+              xs: "6rem",
+              sm: "8rem",
+              md: "8rem",
+              lg: "6rem",
+              xl: "6rem",
+            },
           }}
         >
           <Typography
@@ -124,6 +161,10 @@ class SitesCard extends Component {
               position: "absolute",
               fontFamily: "Roboto",
               textAlign: "left",
+              fontSize: {
+                xs: "1rem",
+                sm: "1.5rem",
+              },
               color: "text.primary",
             }}
           >
@@ -132,14 +173,14 @@ class SitesCard extends Component {
           </Typography>
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
             maxWidth: "80%",
             margin: "auto",
             marginBottom: "1rem",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "6rem",
+            height: "6rem",
           }}
         >
           <Typography
@@ -152,6 +193,10 @@ class SitesCard extends Component {
               position: "absolute",
               fontFamily: "Roboto",
               textAlign: "left",
+              fontSize: {
+                xs: "1rem",
+                sm: "1.5rem",
+              },
               color: "text.primary",
             }}
           >
@@ -165,4 +210,4 @@ class SitesCard extends Component {
   }
 }
 
-export default SitesCard;
+export default SitesComponent;

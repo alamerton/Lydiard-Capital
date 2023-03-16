@@ -9,7 +9,7 @@ import {
 import CircleSharpIcon from "@mui/icons-material/CircleSharp";
 import { Component } from "react";
 
-class InvestmentArmCard extends Component {
+class InvestmentArmComponent extends Component {
   render() {
     return (
       <Container style={{ position: "relative" }}>
@@ -179,4 +179,4 @@ class InvestmentArmCard extends Component {
   }
 }
 
-export default InvestmentArmCard;
+export default InvestmentArmComponent;

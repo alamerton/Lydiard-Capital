@@ -2,7 +2,7 @@ import { Container } from "@mui/material";
 import { Component } from "react";
 import BigLogo from "./BigLogo";
 
-class FooterCard extends Component {
+class FooterComponent extends Component {
   render() {
     return (
       <Container
@@ -21,4 +21,4 @@ class FooterCard extends Component {
   }
 }
 
-export default FooterCard;
+export default FooterComponent;

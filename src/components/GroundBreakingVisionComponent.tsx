@@ -1,7 +1,7 @@
 import { Button, Container, Typography } from "@mui/material";
 import { Component } from "react";
 
-class GroundBreakingVisionCard extends Component {
+class GroundBreakingVisionComponent extends Component {
   render() {
     return (
       <Container
@@ -137,11 +137,11 @@ class GroundBreakingVisionCard extends Component {
             position: "relative",
             maxWidth: "40%",
             margin: "auto",
-            marginTop: "2rem",
+            marginTop: "4rem",
             marginBottom: "3rem",
             minHeight: {
               xs: "2rem",
-              sm: "3rem",
+              sm: "rem",
             },
             textAlign: "center",
           }}
@@ -155,4 +155,4 @@ class GroundBreakingVisionCard extends Component {
   }
 }
 
-export default GroundBreakingVisionCard;
+export default GroundBreakingVisionComponent;

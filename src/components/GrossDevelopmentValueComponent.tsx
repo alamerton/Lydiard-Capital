@@ -1,7 +1,7 @@
 import { Container, Typography } from "@mui/material";
 import { Component } from "react";
 
-class ConstructionCostsCard extends Component {
+class GrossDevelopmentValueComponent extends Component {
   render() {
     return (
       <Container
@@ -15,8 +15,11 @@ class ConstructionCostsCard extends Component {
           sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
         />
         <img
-          style={{ width: "100%", height: "100%", filter: "brightness(75%)" }}
-          src={process.env.PUBLIC_URL + "shard1.jpg"}
+          style={{
+            width: "100%",
+            height: "100%",
+          }}
+          src={process.env.PUBLIC_URL + "Group 19.png"}
           alt="cannot display"
         />
         <Typography
@@ -42,11 +45,12 @@ class ConstructionCostsCard extends Component {
             color: "text.secondary",
           }}
         >
-          Keeping Construction Costs to a Minimum
+          Maximising Gross Development Value across both Brownfield and
+          Greenfield land
         </Typography>
       </Container>
     );
   }
 }
 
-export default ConstructionCostsCard;
+export default GrossDevelopmentValueComponent;

@@ -8,7 +8,7 @@ import {
 import CircleSharpIcon from "@mui/icons-material/CircleSharp";
 import { Component } from "react";
 
-class LandDevelopmentPromotionCard extends Component {
+class LandDevelopmentPromotionComponent extends Component {
   render() {
     return (
       <Container style={{ position: "relative" }}>
@@ -181,4 +181,4 @@ class LandDevelopmentPromotionCard extends Component {
   }
 }
 
-export default LandDevelopmentPromotionCard;
+export default LandDevelopmentPromotionComponent;
