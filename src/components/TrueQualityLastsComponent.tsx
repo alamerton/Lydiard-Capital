@@ -25,6 +25,13 @@ class TrueQualityLastsCard extends Component {
               fontFamily: "Source Serif 4",
               fontWeight: "bold",
               fontStyle: "italic",
+              fontSize: {
+                xs: "1.5rem",
+                sm: "2rem",
+                md: "2.5rem",
+                lg: "3rem",
+                xl: "3rem",
+              },
               textAlign: "left",
               color: "text.secondary",
             }}
@@ -40,7 +47,6 @@ class TrueQualityLastsCard extends Component {
             marginTop: "1rem",
             justifyContent: "center",
             alignItems: "center",
-            // minheight: "6rem",
             height: "6rem",
           }}
         >
@@ -53,6 +59,13 @@ class TrueQualityLastsCard extends Component {
               position: "absolute",
               fontFamily: "Roboto",
               textAlign: "center",
+              fontSize: {
+                xs: "1.5rem",
+                sm: "2rem",
+                md: "2.5rem",
+                lg: "3rem",
+                xl: "3rem",
+              },
               color: "text.primary",
             }}
           >
@@ -62,7 +75,10 @@ class TrueQualityLastsCard extends Component {
         <Container
           sx={{
             position: "relative",
-            maxWidth: "80%",
+            maxWidth: {
+              xs: "80%",
+              lg: "75%",
+            },
             margin: "auto",
             marginBottom: {
               xs: "1rem",
@@ -82,6 +98,13 @@ class TrueQualityLastsCard extends Component {
               position: "absolute",
               fontFamily: "Roboto",
               textAlign: "left",
+              fontSize: {
+                xs: "1rem",
+                sm: "1.5rem",
+                md: "1.5rem",
+                lg: "1.5rem",
+                xl: "1.5em",
+              },
               color: "text.primary",
             }}
           >
@@ -91,9 +114,12 @@ class TrueQualityLastsCard extends Component {
           </Typography>
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
-            maxWidth: "80%",
+            maxWidth: {
+              xs: "80%",
+              lg: "75%",
+            },
             margin: "auto",
             marginBottom: "1rem",
             justifyContent: "center",
@@ -110,6 +136,13 @@ class TrueQualityLastsCard extends Component {
               position: "absolute",
               fontFamily: "Roboto",
               textAlign: "left",
+              fontSize: {
+                xs: "1rem",
+                sm: "1.5rem",
+                md: "1.5rem",
+                lg: "1.5rem",
+                xl: "1.5em",
+              },
               color: "text.primary",
             }}
           >
@@ -119,9 +152,12 @@ class TrueQualityLastsCard extends Component {
           </Typography>
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
-            maxWidth: "80%",
+            maxWidth: {
+              xs: "80%",
+              lg: "75%",
+            },
             margin: "auto",
             marginBottom: "4rem",
             justifyContent: "center",
@@ -138,6 +174,13 @@ class TrueQualityLastsCard extends Component {
               position: "absolute",
               fontFamily: "Roboto",
               textAlign: "left",
+              fontSize: {
+                xs: "1rem",
+                sm: "1.5rem",
+                md: "1.5rem",
+                lg: "1.5rem",
+                xl: "1.5em",
+              },
               color: "text.primary",
             }}
           >
@@ -148,9 +191,12 @@ class TrueQualityLastsCard extends Component {
           </Typography>
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
-            maxWidth: "80%",
+            maxWidth: {
+              xs: "80%",
+              lg: "75%",
+            },
             margin: "auto",
             marginBottom: "-1.5rem",
             justifyContent: "center",
@@ -167,6 +213,13 @@ class TrueQualityLastsCard extends Component {
               position: "absolute",
               fontFamily: "Roboto",
               textAlign: "center",
+              fontSize: {
+                xs: "1.5rem",
+                sm: "2rem",
+                md: "2.5rem",
+                lg: "3rem",
+                xl: "3rem",
+              },
               color: "text.primary",
             }}
           >
@@ -174,9 +227,12 @@ class TrueQualityLastsCard extends Component {
           </Typography>
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
-            maxWidth: "80%",
+            maxWidth: {
+              xs: "80%",
+              lg: "75%",
+            },
             margin: "auto",
             marginBottom: "1rem",
             justifyContent: "center",
@@ -193,6 +249,13 @@ class TrueQualityLastsCard extends Component {
               position: "absolute",
               fontFamily: "Roboto",
               textAlign: "left",
+              fontSize: {
+                xs: "1rem",
+                sm: "1.5rem",
+                md: "1.5rem",
+                lg: "1.5rem",
+                xl: "1.5em",
+              },
               color: "text.primary",
             }}
           >
@@ -202,9 +265,12 @@ class TrueQualityLastsCard extends Component {
           </Typography>
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
-            maxWidth: "80%",
+            maxWidth: {
+              xs: "80%",
+              lg: "75%",
+            },
             margin: "auto",
             marginBottom: "10rem",
             justifyContent: "center",
@@ -221,6 +287,13 @@ class TrueQualityLastsCard extends Component {
               position: "absolute",
               fontFamily: "Roboto",
               textAlign: "left",
+              fontSize: {
+                xs: "1rem",
+                sm: "1.5rem",
+                md: "1.5rem",
+                lg: "1.5rem",
+                xl: "1.5em",
+              },
               color: "text.primary",
             }}
           >
@@ -234,9 +307,12 @@ class TrueQualityLastsCard extends Component {
           </Typography>
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
-            maxWidth: "80%",
+            maxWidth: {
+              xs: "80%",
+              lg: "75%",
+            },
             margin: "auto",
             marginBottom: "5rem",
             justifyContent: "center",
@@ -253,6 +329,13 @@ class TrueQualityLastsCard extends Component {
               position: "absolute",
               fontFamily: "Roboto",
               textAlign: "left",
+              fontSize: {
+                xs: "1rem",
+                sm: "1.5rem",
+                md: "1.5rem",
+                lg: "1.5rem",
+                xl: "1.5em",
+              },
               color: "text.primary",
             }}
           >
