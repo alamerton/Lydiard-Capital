@@ -42,7 +42,10 @@ class SitesComponent extends Component {
         <Container
           sx={{
             position: "relative",
-            maxWidth: "80%",
+            maxWidth: {
+              xs: "80%",
+              lg: "75%",
+            },
             margin: "auto",
             marginTop: "1rem",
             justifyContent: "center",
@@ -81,7 +84,10 @@ class SitesComponent extends Component {
         <Container
           sx={{
             position: "relative",
-            maxWidth: "80%",
+            maxWidth: {
+              xs: "80%",
+              lg: "75%",
+            },
             margin: "auto",
             marginTop: "1rem",
             justifyContent: "center",
@@ -123,7 +129,7 @@ class SitesComponent extends Component {
             position: "relative",
             maxWidth: "40%",
             margin: "auto",
-            marginTop: "2rem",
+            marginTop: "4rem",
             marginBottom: "3rem",
             height: {
               xs: "4rem",
@@ -138,7 +144,10 @@ class SitesComponent extends Component {
         <Container
           sx={{
             position: "relative",
-            maxWidth: "80%",
+            maxWidth: {
+              xs: "80%",
+              lg: "75%",
+            },
             margin: "auto",
             justifyContent: "center",
             alignItems: "center",
@@ -175,7 +184,10 @@ class SitesComponent extends Component {
         <Container
           sx={{
             position: "relative",
-            maxWidth: "80%",
+            maxWidth: {
+              xs: "80%",
+              lg: "75%",
+            },
             margin: "auto",
             marginBottom: "1rem",
             justifyContent: "center",
