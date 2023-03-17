@@ -4,7 +4,7 @@ import { Component } from "react";
 class ContactComponent extends Component {
   render() {
     return (
-      <Container style={{ position: "absolute" }}>
+      <Container style={{ position: "relative" }}>
         <Container
           style={{
             position: "relative",

@@ -25,7 +25,7 @@ const Home: FC<any> = (): ReactElement => {
       <InvestmentArmComponent />
       <SitesComponent />
       <TrueQualityLastsComponent />
-      {/* <ContactComponent /> */}
+      <ContactComponent />
       {/* <FooterComponent /> */}
     </Box>
   );
