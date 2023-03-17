@@ -131,7 +131,7 @@ class TrueQualityLastsCard extends Component {
             justifyContent: "center",
             alignItems: "center",
             height: {
-              xs: "6rem",
+              xs: "7rem",
               sm: "9rem",
               md: "8rem",
               lg: "6rem",
@@ -300,7 +300,7 @@ class TrueQualityLastsCard extends Component {
             justifyContent: "center",
             alignItems: "center",
             height: {
-              xs: "6rem",
+              xs: "8rem",
               sm: "14rem",
               md: "8rem",
               lg: "6rem",
@@ -347,7 +347,13 @@ class TrueQualityLastsCard extends Component {
             marginBottom: "5rem",
             justifyContent: "center",
             alignItems: "center",
-            height: "6rem",
+            height: {
+              xs: "6rem",
+              sm: "14rem",
+              md: "8rem",
+              lg: "6rem",
+              xl: "6rem",
+            },
           }}
         >
           <Typography
