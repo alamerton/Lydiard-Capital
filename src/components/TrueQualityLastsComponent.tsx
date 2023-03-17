@@ -10,7 +10,7 @@ class TrueQualityLastsCard extends Component {
             sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
           />
           <img
-            style={{ width: "100%", height: "6rem" }}
+            style={{ width: "100%", height: "100%" }}
             src={process.env.PUBLIC_URL + "Group 22.png"}
             alt="cannot display"
           />
@@ -86,7 +86,13 @@ class TrueQualityLastsCard extends Component {
             },
             justifyContent: "center",
             alignItems: "center",
-            height: "6rem",
+            height: {
+              xs: "6rem",
+              sm: "8rem",
+              md: "8rem",
+              lg: "6rem",
+              xl: "6rem",
+            },
           }}
         >
           <Typography
@@ -124,7 +130,13 @@ class TrueQualityLastsCard extends Component {
             marginBottom: "1rem",
             justifyContent: "center",
             alignItems: "center",
-            height: "6rem",
+            height: {
+              xs: "6rem",
+              sm: "9rem",
+              md: "8rem",
+              lg: "6rem",
+              xl: "6rem",
+            },
           }}
         >
           <Typography
@@ -162,7 +174,13 @@ class TrueQualityLastsCard extends Component {
             marginBottom: "4rem",
             justifyContent: "center",
             alignItems: "center",
-            height: "6rem",
+            height: {
+              xs: "6rem",
+              sm: "8rem",
+              md: "8rem",
+              lg: "6rem",
+              xl: "6rem",
+            },
           }}
         >
           <Typography
@@ -237,7 +255,13 @@ class TrueQualityLastsCard extends Component {
             marginBottom: "1rem",
             justifyContent: "center",
             alignItems: "center",
-            height: "6rem",
+            height: {
+              xs: "6rem",
+              sm: "8rem",
+              md: "8rem",
+              lg: "6rem",
+              xl: "6rem",
+            },
           }}
         >
           <Typography
@@ -275,7 +299,13 @@ class TrueQualityLastsCard extends Component {
             marginBottom: "10rem",
             justifyContent: "center",
             alignItems: "center",
-            height: "6rem",
+            height: {
+              xs: "6rem",
+              sm: "14rem",
+              md: "8rem",
+              lg: "6rem",
+              xl: "6rem",
+            },
           }}
         >
           <Typography
