@@ -8,7 +8,7 @@ class TopBanner extends Component {
         sx={{
           position: "relative",
           marginBottom: "-1rem",
-          height: "100%"
+          height: "100%",
         }}
       >
         <img
@@ -17,7 +17,7 @@ class TopBanner extends Component {
             height: "100%",
             objectFit: "cover", // Stop image from stretching
           }}
-          src={process.env.PUBLIC_URL + "london-2374247with pink.jpg"}
+          src={process.env.PUBLIC_URL + "topBanner.png"}
           alt="cannot display"
         />
         <Typography

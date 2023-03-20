@@ -18,8 +18,9 @@ class GrossDevelopmentValueComponent extends Component {
           style={{
             width: "100%",
             height: "100%",
+            backgroundColor: "black",
           }}
-          src={process.env.PUBLIC_URL + "Group 19.png"}
+          src={process.env.PUBLIC_URL + "grossDevelopmentValue2.png"}
           alt="cannot display"
         />
         <Typography
