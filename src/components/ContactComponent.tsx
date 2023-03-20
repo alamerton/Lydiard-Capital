@@ -1,4 +1,4 @@
-import { Container, Typography } from "@mui/material";
+import { Container, Divider, Typography } from "@mui/material";
 import { Component } from "react";
 
 class ContactComponent extends Component {
@@ -12,7 +12,7 @@ class ContactComponent extends Component {
             margin: "auto",
             justifyContent: "center",
             alignItems: "center",
-            height: "4rem",
+            height: "3rem",
           }}
         >
           <Typography
@@ -31,6 +31,18 @@ class ContactComponent extends Component {
             Contact Us
           </Typography>
         </Container>
+        <Divider
+          sx={{
+            position: "relative",
+            maxWidth: {
+              xs: "40%",
+              sm: "30%",
+            },
+            margin: "auto",
+            borderBottomWidth: 2,
+            bottom: "0.5rem",
+          }}
+        />
         <Container
           style={{
             position: "relative",
