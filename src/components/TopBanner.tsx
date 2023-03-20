@@ -15,7 +15,7 @@ class TopBanner extends Component {
           style={{
             width: "100%",
             height: "100%",
-            objectFit: "cover", // Stop image from stretching
+            objectFit: "cover",
           }}
           src={process.env.PUBLIC_URL + "topBanner.png"}
           alt="cannot display"
