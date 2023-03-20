@@ -16,7 +16,7 @@ class ExceptionalComponent extends Component {
         />
         <img
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
-          src={process.env.PUBLIC_URL + "buildings-1835643.jpg"}
+          src={process.env.PUBLIC_URL + "exceptional.png"}
           alt="cannot display"
         />
         <Typography

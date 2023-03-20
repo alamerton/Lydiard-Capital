@@ -19,7 +19,7 @@ class InvestmentArmComponent extends Component {
         <Container style={{ position: "relative" }}>
           <img
             style={{ width: "100%", height: "100%" }}
-            src={process.env.PUBLIC_URL + "Group 18.png"}
+            src={process.env.PUBLIC_URL + "investment.png"}
             alt="cannot display"
           />
           <Typography
