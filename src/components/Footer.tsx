@@ -1,22 +1,28 @@
-import { FC, ReactElement } from "react";
-import { Container } from "@mui/material";
+import Box from "@mui/material/Box";
+import { Container } from "@mui/system";
 import BigLogo from "./BigLogo";
 
-export const Footer: FC = (): ReactElement => {
+export default function Footer() {
   return (
-    <Container
-      style={{
-        position: "absolute",
+    <Box
+      sx={{
+        position: "relative",
+        margin: "auto",
+        top: "20rem",
         height: "10rem",
-        bottom: 0,
-        backgroundColor: "primary.main",
+        backgroundColor: "black",
       }}
     >
-      <Container sx={{ margin: "auto" }}>
-        <BigLogo />
-      </Container>
-    </Container>
+      <img
+        style={{
+          position: "relative",
+          height: "5rem",
+          margin: "auto",
+          display: "block",
+          top: "25%",
+        }}
+        src={process.env.PUBLIC_URL + "lydiard-capital-wreath.svg"}
+      ></img>
+    </Box>
   );
-};
-
-export default Footer;
+}

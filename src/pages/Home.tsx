@@ -11,7 +11,6 @@ import SitesComponent from "../components/SitesComponent";
 import TopBanner from "../components/TopBanner";
 import TrueQualityLastsComponent from "../components/TrueQualityLastsComponent";
 import Footer from "../components/Footer";
-import FooterComponent from "../components/FooterComponent";
 
 const Home: FC<any> = (): ReactElement => {
   return (
@@ -26,7 +25,7 @@ const Home: FC<any> = (): ReactElement => {
       <SitesComponent />
       <TrueQualityLastsComponent />
       <ContactComponent />
-      {/* <FooterComponent /> */}
+      <Footer />
     </Box>
   );
 };

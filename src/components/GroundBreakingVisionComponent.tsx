@@ -138,7 +138,7 @@ class GroundBreakingVisionComponent extends Component {
             maxWidth: "40%",
             margin: "auto",
             marginTop: "4rem",
-            marginBottom: "3rem",
+            marginBottom: "8rem",
             minHeight: {
               xs: "2rem",
               sm: "rem",

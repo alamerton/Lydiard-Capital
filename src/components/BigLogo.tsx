@@ -12,7 +12,7 @@ class Logo extends Component {
             height: "5rem",
             display: "block",
             margin: "auto",
-            padding: "0.5rem",
+            
           }}
         />
       </div>
