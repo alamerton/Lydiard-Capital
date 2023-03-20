@@ -20,7 +20,7 @@ class GrossDevelopmentValueComponent extends Component {
             height: "100%",
             backgroundColor: "black",
           }}
-          src={process.env.PUBLIC_URL + "grossDevelopmentValue2.png"}
+          src={process.env.PUBLIC_URL + "grossDevelopmentValue.png"}
           alt="cannot display"
         />
         <Typography
