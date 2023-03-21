@@ -1,5 +1,6 @@
 import { Button, Container, Typography } from "@mui/material";
 import { Component } from "react";
+import { handleScroll } from "../App";
 
 class GroundBreakingVisionComponent extends Component {
   render() {
@@ -146,7 +147,7 @@ class GroundBreakingVisionComponent extends Component {
             textAlign: "center",
           }}
         >
-          <Button variant="contained" size="large">
+          <Button variant="contained" size="large" onClick={handleScroll}>
             Contact us
           </Button>
         </Container>
