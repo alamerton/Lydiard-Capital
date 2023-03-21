@@ -142,7 +142,6 @@ class SitesComponent extends Component {
           <Button variant="contained" onClick={handleScroll}>
             Contact us
           </Button>
-          {/* TODO: Make contact button direct user to contact area */}
         </Container>
         <Container
           sx={{
