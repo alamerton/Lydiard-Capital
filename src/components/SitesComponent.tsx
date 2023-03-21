@@ -1,5 +1,6 @@
 import { Button, Container, Typography } from "@mui/material";
 import { Component } from "react";
+import { handleScroll } from "../App";
 
 class SitesComponent extends Component {
   render() {
@@ -138,7 +139,9 @@ class SitesComponent extends Component {
             textAlign: "center",
           }}
         >
-          <Button variant="contained">Contact us</Button>
+          <Button variant="contained" onClick={handleScroll}>
+            Contact us
+          </Button>
           {/* TODO: Make contact button direct user to contact area */}
         </Container>
         <Container
