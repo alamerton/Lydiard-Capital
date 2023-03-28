@@ -123,9 +123,24 @@ class InvestmentArmComponent extends Component {
                 Build to Rent
               </Typography>
             </ListItem>
-            <ListItem style={{ paddingTop: 0, paddingBottom: 0 }}>
+            <ListItem
+              style={{
+                paddingTop: 0,
+                paddingBottom: 0,
+                alignItems: "flex-start",
+              }}
+            >
               <ListItemIcon>
-                <CircleSharpIcon style={{ height: "0.5rem" }} />
+                <CircleSharpIcon
+                  sx={{
+                    height: "0.5rem",
+                    position: "relative",
+                    top: {
+                      xs: "0.5rem",
+                      sm: "0.75rem",
+                    },
+                  }}
+                />
               </ListItemIcon>
               <Typography
                 sx={{
