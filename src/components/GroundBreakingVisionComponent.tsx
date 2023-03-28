@@ -128,7 +128,7 @@ class GroundBreakingVisionComponent extends Component {
               },
             }}
           >
-            We take long-term interest in our sites to generate sufficient
+            We take a long-term interest in our sites to generate sufficient
             returns for our investors and stakeholders from a financial,
             architectural and placemaking standpoint.
           </Typography>
