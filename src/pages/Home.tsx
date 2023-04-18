@@ -15,6 +15,7 @@ import Footer from "../components/Footer";
 const Home: FC<any> = (): ReactElement => {
   return (
     <Box>
+      <link rel="icon" href="http://lydiardcapital.com/favicon.ico"></link>
       <TopBanner />
       <GrossDevelopmentValueComponent />
       <ConstructionCostsComponent />
