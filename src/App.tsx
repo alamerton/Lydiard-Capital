@@ -3,7 +3,6 @@ import { createTheme } from "@mui/material/styles";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { routes as appRoutes } from "./routes";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 
 function App() {
   // define theme
