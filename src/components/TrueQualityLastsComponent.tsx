@@ -40,11 +40,14 @@ class TrueQualityLastsCard extends Component {
           </Typography>
         </Container>
         <Container
-          style={{
+          sx={{
             position: "relative",
             maxWidth: "80%",
             margin: "auto",
-            marginTop: "1rem",
+            marginTop: {
+              xs: "1rem",
+              xl: "5rem",
+            },
             justifyContent: "center",
             alignItems: "center",
             height: "6rem",
@@ -216,6 +219,10 @@ class TrueQualityLastsCard extends Component {
               lg: "75%",
             },
             margin: "auto",
+            marginTop: {
+              xs: "1rem",
+              xl: "10rem",
+            },
             marginBottom: "-1.5rem",
             justifyContent: "center",
             alignItems: "center",
