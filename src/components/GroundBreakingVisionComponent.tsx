@@ -16,7 +16,10 @@ class GroundBreakingVisionComponent extends Component {
             position: "relative",
             maxWidth: "80%",
             margin: "auto",
-            marginTop: "1rem",
+            marginTop: {
+              xs: "1rem",
+              xl: "5rem",
+            },
             justifyContent: "center",
             alignItems: "center",
             height: {
