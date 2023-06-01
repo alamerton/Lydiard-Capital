@@ -4,7 +4,7 @@ import { Component } from "react";
 class TrueQualityLastsCard extends Component {
   render() {
     return (
-      <Container style={{ position: "relative" }}>
+      <Container>
         <Container style={{ position: "relative" }}>
           <Container
             sx={{ backgroundColor: "secondary.main", height: "0.3rem" }}
@@ -42,11 +42,15 @@ class TrueQualityLastsCard extends Component {
         <Container
           sx={{
             position: "relative",
-            maxWidth: "80%",
+            // maxWidth: "80%",
             margin: "auto",
             marginTop: {
               xs: "1rem",
               xl: "5rem",
+            },
+            marginBottom: {
+              sx: "1rem",
+              xl: "1rem",
             },
             justifyContent: "center",
             alignItems: "center",
@@ -66,8 +70,8 @@ class TrueQualityLastsCard extends Component {
                 xs: "1.5rem",
                 sm: "2rem",
                 md: "2.5rem",
-                lg: "3rem",
-                xl: "3rem",
+                // lg: "3rem",
+                // xl: "3rem",
               },
               color: "text.primary",
             }}
@@ -75,52 +79,140 @@ class TrueQualityLastsCard extends Component {
             The Lydiard Capital Commitment
           </Typography>
         </Container>
-        <Container
-          sx={{
-            position: "relative",
-            maxWidth: {
-              xs: "80%",
-              lg: "75%",
-            },
-            margin: "auto",
-            marginBottom: {
-              xs: "1rem",
-              sm: "2rem",
-            },
-            justifyContent: "center",
-            alignItems: "center",
-            height: {
-              xs: "6rem",
-              sm: "8rem",
-              md: "8rem",
-              lg: "6rem",
-              xl: "6rem",
-            },
-          }}
-        >
-          <Typography
-            component="div"
-            variant="body1"
-            flexGrow={1}
-            width="100%"
+        <Container sx={{ display: "flex", justifyContent: "space-between" }}>
+          <Container
             sx={{
-              position: "absolute",
-              fontFamily: "Roboto",
-              textAlign: "left",
-              fontSize: {
-                xs: "1rem",
-                sm: "1.5rem",
-                md: "1.5rem",
-                lg: "1.5rem",
-                xl: "1.5em",
+              // position: "relative",
+              maxWidth: {
+                xs: "80%",
+                lg: "75%",
               },
-              color: "text.primary",
+              margin: "auto",
+              // marginBottom: {
+              //   xs: "1rem",
+              //   sm: "2rem",
+              // },
+              // justifyContent: "center",
+              // alignItems: "center",
+              height: {
+                xs: "6rem",
+                sm: "8rem",
+                // md: "8rem",
+                lg: "6rem",
+                // xl: "6rem",
+              },
             }}
           >
-            We believe architecture is the most important art form. It is where
-            we live, work, shop, and coalesce. Where ideas are formed, and
-            experiences shared.
-          </Typography>
+            <Typography
+              component="div"
+              variant="body1"
+              flexGrow={1}
+              width="100%"
+              sx={{
+                // position: "absolute",
+                fontFamily: "Roboto",
+                textAlign: "center",
+                fontSize: {
+                  xs: "1rem",
+                  sm: "1.5rem",
+                  md: "1.4rem",
+                  // lg: "1.5rem",
+                  // xl: "1.5rem",
+                },
+                color: "text.primary",
+              }}
+            >
+              We believe architecture is the most important art form. It is
+              where we live, work, shop, and coalesce. Where ideas are formed,
+              and experiences shared.
+            </Typography>
+          </Container>
+          <Container
+            sx={{
+              // position: "relative",
+              maxWidth: {
+                xs: "80%",
+                lg: "75%",
+              },
+              margin: "auto",
+              // marginBottom: "1rem",
+              // justifyContent: "center",
+              // alignItems: "center",
+              height: {
+                xs: "7rem",
+                sm: "9rem",
+                md: "8rem",
+                lg: "6rem",
+                xl: "6rem",
+              },
+            }}
+          >
+            <Typography
+              component="div"
+              variant="body1"
+              flexGrow={1}
+              width="100%"
+              sx={{
+                // position: "absolute",
+                fontFamily: "Roboto",
+                textAlign: "center",
+                fontSize: {
+                  xs: "1rem",
+                  sm: "1.5rem",
+                  md: "1.4rem",
+                },
+                color: "text.primary",
+              }}
+            >
+              All our developments, whether for promotion, investment or for
+              immediate development are conceived with long term master-planning
+              and commitment in mind.
+            </Typography>
+          </Container>
+          <Container
+            sx={{
+              // position: "relative",
+              maxWidth: {
+                xs: "80%",
+                lg: "75%",
+              },
+              // margin: "auto",
+              // marginBottom: "4rem",
+              // justifyContent: "center",
+              // alignItems: "center",
+              height: {
+                xs: "6rem",
+                sm: "8rem",
+                // md: "8rem",
+                lg: "6rem",
+                // xl: "6rem",
+              },
+            }}
+          >
+            <Typography
+              component="div"
+              variant="body1"
+              flexGrow={1}
+              width="100%"
+              sx={{
+                // position: "absolute",
+                fontFamily: "Roboto",
+                textAlign: "center",
+                fontSize: {
+                  xs: "1rem",
+                  sm: "1.5rem",
+                  md: "1.4rem",
+                  // lg: "1.5rem",
+                  // xl: "1.5em",
+                },
+                color: "text.primary",
+              }}
+            >
+              We aim to shape minds and lives, and inspire a generation using
+              best in class architects and innovation, leaving a legacy beyond
+              just profit margin.
+            </Typography>
+          </Container>
         </Container>
         <Container
           sx={{
@@ -129,101 +221,13 @@ class TrueQualityLastsCard extends Component {
               xs: "80%",
               lg: "75%",
             },
-            margin: "auto",
-            marginBottom: "1rem",
-            justifyContent: "center",
-            alignItems: "center",
-            height: {
-              xs: "7rem",
-              sm: "9rem",
-              md: "8rem",
-              lg: "6rem",
-              xl: "6rem",
-            },
-          }}
-        >
-          <Typography
-            component="div"
-            variant="body1"
-            flexGrow={1}
-            width="100%"
-            sx={{
-              position: "absolute",
-              fontFamily: "Roboto",
-              textAlign: "left",
-              fontSize: {
-                xs: "1rem",
-                sm: "1.5rem",
-                md: "1.5rem",
-                lg: "1.5rem",
-                xl: "1.5em",
-              },
-              color: "text.primary",
-            }}
-          >
-            All our developments, whether for promotion, investment or for
-            immediate development are conceived with long term master-planning
-            and commitment in mind.
-          </Typography>
-        </Container>
-        <Container
-          sx={{
-            position: "relative",
-            maxWidth: {
-              xs: "80%",
-              lg: "75%",
-            },
-            margin: "auto",
-            marginBottom: "4rem",
-            justifyContent: "center",
-            alignItems: "center",
-            height: {
-              xs: "6rem",
-              sm: "8rem",
-              md: "8rem",
-              lg: "6rem",
-              xl: "6rem",
-            },
-          }}
-        >
-          <Typography
-            component="div"
-            variant="body1"
-            flexGrow={1}
-            width="100%"
-            sx={{
-              position: "absolute",
-              fontFamily: "Roboto",
-              textAlign: "left",
-              fontSize: {
-                xs: "1rem",
-                sm: "1.5rem",
-                md: "1.5rem",
-                lg: "1.5rem",
-                xl: "1.5em",
-              },
-              color: "text.primary",
-            }}
-          >
-            We aim to leave behind a legacy of architecture that will shape
-            minds and lives. We aim to inspire a generation using best in class
-            architects and innovation, leaving a legacy beyond just profit
-            margin.
-          </Typography>
-        </Container>
-        <Container
-          sx={{
-            position: "relative",
-            maxWidth: {
-              xs: "80%",
-              lg: "75%",
-            },
-            margin: "auto",
+            // margin: "auto",
             marginTop: {
+              // TODO: surely there's a better way than this
               xs: "1rem",
               xl: "10rem",
             },
-            marginBottom: "-1.5rem",
+            // marginBottom: "-1.5rem",
             justifyContent: "center",
             alignItems: "center",
             height: "6rem",
