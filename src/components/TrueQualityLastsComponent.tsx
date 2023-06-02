@@ -54,7 +54,7 @@ class TrueQualityLastsCard extends Component {
             },
             justifyContent: "center",
             alignItems: "center",
-            height: "6rem",
+            height: "3rem",
           }}
         >
           <Typography
@@ -69,25 +69,32 @@ class TrueQualityLastsCard extends Component {
               fontSize: {
                 xs: "1.5rem",
                 sm: "2rem",
-                md: "2.5rem",
+                // md: "2.5rem",
                 // lg: "3rem",
                 // xl: "3rem",
               },
-              color: "text.primary",
+              fontWeight: "bold",
+              color: "charcoal",
             }}
           >
             The Lydiard Capital Commitment
           </Typography>
         </Container>
-        <Container sx={{ display: "flex", justifyContent: "space-between" }}>
+        <Container
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+          }}
+        >
           <Container
             sx={{
               // position: "relative",
+              // backgroundColor: "lightgray",
+              margin: "1rem",
               maxWidth: {
                 xs: "80%",
                 lg: "75%",
               },
-              margin: "auto",
               // marginBottom: {
               //   xs: "1rem",
               //   sm: "2rem",
@@ -115,7 +122,7 @@ class TrueQualityLastsCard extends Component {
                 fontSize: {
                   xs: "1rem",
                   sm: "1.5rem",
-                  md: "1.4rem",
+                  md: "1.1rem",
                   // lg: "1.5rem",
                   // xl: "1.5rem",
                 },
@@ -124,17 +131,18 @@ class TrueQualityLastsCard extends Component {
             >
               We believe architecture is the most important art form. It is
               where we live, work, shop, and coalesce. Where ideas are formed,
-              and experiences shared.
+              experiences shared.
             </Typography>
           </Container>
           <Container
             sx={{
               // position: "relative",
+              // backgroundColor: "lightgray",
+              margin: "1rem",
               maxWidth: {
                 xs: "80%",
                 lg: "75%",
               },
-              margin: "auto",
               // marginBottom: "1rem",
               // justifyContent: "center",
               // alignItems: "center",
@@ -159,7 +167,7 @@ class TrueQualityLastsCard extends Component {
                 fontSize: {
                   xs: "1rem",
                   sm: "1.5rem",
-                  md: "1.4rem",
+                  md: "1.1rem",
                 },
                 color: "text.primary",
               }}
@@ -172,6 +180,8 @@ class TrueQualityLastsCard extends Component {
           <Container
             sx={{
               // position: "relative",
+              // backgroundColor: "lightgray",
+              margin: "1rem",
               maxWidth: {
                 xs: "80%",
                 lg: "75%",
@@ -201,7 +211,7 @@ class TrueQualityLastsCard extends Component {
                 fontSize: {
                   xs: "1rem",
                   sm: "1.5rem",
-                  md: "1.4rem",
+                  md: "1.1rem",
                   // lg: "1.5rem",
                   // xl: "1.5em",
                 },
@@ -245,10 +255,11 @@ class TrueQualityLastsCard extends Component {
               fontSize: {
                 xs: "1.5rem",
                 sm: "2rem",
-                md: "2.5rem",
-                lg: "3rem",
-                xl: "3rem",
+                // md: "2.5rem",
+                // lg: "3rem",
+                // xl: "3rem",
               },
+              fontWeight: "bold",
               color: "text.primary",
             }}
           >
