@@ -17,7 +17,7 @@ class TopBanner extends Component {
             height: "100%",
             objectFit: "cover",
           }}
-          src={process.env.PUBLIC_URL + "topBanner.png"}
+          src={process.env.PUBLIC_URL + "topBanner.jpg"}
           alt="cannot display"
         />
         <Typography

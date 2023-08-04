@@ -18,7 +18,7 @@ class LandDevelopmentPromotionComponent extends Component {
         <Container style={{ position: "relative" }}>
           <img
             style={{ width: "100%", height: "100%" }}
-            src={process.env.PUBLIC_URL + "landDevelopmentPromotion.png"}
+            src={process.env.PUBLIC_URL + "landDevelopmentPromotion.jpg"}
             alt="cannot display"
           />
           <Container style={{ position: "relative" }}>

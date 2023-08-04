@@ -16,7 +16,7 @@ class ConstructionCostsComponent extends Component {
         />
         <img
           style={{ width: "100%", height: "100%", filter: "brightness(75%)" }}
-          src={process.env.PUBLIC_URL + "constructionCosts.png"}
+          src={process.env.PUBLIC_URL + "constructionCosts.jpg"}
           alt="cannot display"
         />
         <Typography

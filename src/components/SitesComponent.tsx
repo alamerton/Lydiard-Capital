@@ -12,7 +12,7 @@ class SitesComponent extends Component {
           />
           <img
             style={{ width: "100%", height: "100%" }}
-            src={process.env.PUBLIC_URL + "sites.png"}
+            src={process.env.PUBLIC_URL + "sites.jpg"}
             alt="cannot display"
           />
           <Typography

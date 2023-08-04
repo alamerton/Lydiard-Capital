@@ -11,7 +11,7 @@ class TrueQualityLastsCard extends Component {
           />
           <img
             style={{ width: "100%", height: "100%" }}
-            src={process.env.PUBLIC_URL + "trueQuality.png"}
+            src={process.env.PUBLIC_URL + "trueQuality.jpg"}
             alt="cannot display"
           />
           <Typography
