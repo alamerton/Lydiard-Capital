@@ -16,8 +16,8 @@ const Home: FC<any> = (): ReactElement => {
   return (
     <Box>
       <TopBanner />
-      <GrossDevelopmentValueComponent />
       <ConstructionCostsComponent />
+      <GrossDevelopmentValueComponent />
       <ExceptionalComponent />
       <GroundBreakingVisionComponent />
       <LandDevelopmentPromotionComponent />
